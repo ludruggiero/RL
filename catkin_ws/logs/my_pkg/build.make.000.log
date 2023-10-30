@@ -1,0 +1,43 @@
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _my_pkg_generate_messages_check_deps_my_msg[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target my_pkg_listener[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target my_pkg_node[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  7%] [32mBuilding CXX object CMakeFiles/my_pkg_listener.dir/src/my_pkg_listener.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/my_pkg_node.dir/src/my_pkg_node.cpp.o[0m
+[ 15%] Built target _my_pkg_generate_messages_check_deps_my_msg
+[35m[1mScanning dependencies of target my_pkg_generate_messages_eus[0m
+[35m[1mScanning dependencies of target my_pkg_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target my_pkg_generate_messages_py[0m
+[35m[1mScanning dependencies of target my_pkg_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target my_pkg_generate_messages_cpp[0m
+[ 23%] [34m[1mGenerating C++ code from my_pkg/my_msg.msg[0m
+[ 30%] [34m[1mGenerating EusLisp manifest code for my_pkg[0m
+[ 46%] [34m[1mGenerating EusLisp code from my_pkg/my_msg.msg[0m
+[ 46%] [34m[1mGenerating Python from MSG my_pkg/my_msg[0m
+[ 53%] [34m[1mGenerating Javascript code from my_pkg/my_msg.msg[0m
+[ 61%] [34m[1mGenerating Lisp code from my_pkg/my_msg.msg[0m
+[ 61%] Built target my_pkg_generate_messages_nodejs
+[ 61%] Built target my_pkg_generate_messages_lisp
+[ 61%] Built target my_pkg_generate_messages_cpp
+[35m[1mScanning dependencies of target my_pkg[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/my_pkg.dir/src/my_pkg.cpp.o[0m
+[ 76%] [34m[1mGenerating Python msg __init__.py for my_pkg[0m
+[ 76%] Built target my_pkg_generate_messages_py
+[ 76%] Built target my_pkg_generate_messages_eus
+[35m[1mScanning dependencies of target my_pkg_generate_messages[0m
+[ 76%] Built target my_pkg_generate_messages
+[ 92%] [32m[1mLinking CXX executable /home/ludovica/RL/catkin_ws/devel/.private/my_pkg/lib/my_pkg/my_pkg_node[0m
+[ 92%] [32m[1mLinking CXX executable /home/ludovica/RL/catkin_ws/devel/.private/my_pkg/lib/my_pkg/my_pkg[0m
+[100%] [32m[1mLinking CXX executable /home/ludovica/RL/catkin_ws/devel/.private/my_pkg/lib/my_pkg/my_pkg_listener[0m
+[100%] Built target my_pkg
+[100%] Built target my_pkg_node
+[100%] Built target my_pkg_listener
