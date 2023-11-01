@@ -7,7 +7,7 @@
 
 
 /*!
- * Main class for the node to handle the ROS interfacing.
+ * Main class for the Arm_Controller_node to handle the ROS interfacing.
  */
 class Arm_Controller
 {
@@ -24,11 +24,6 @@ class Arm_Controller
   virtual ~Arm_Controller();
 
  private:
-  /*!
-   * Reads and verifies the ROS parameters.
-   * @return true if successful.
-   */
-  bool readParameters();
 
   /*!
    * ROS topic callback method.
@@ -41,10 +36,9 @@ class Arm_Controller
 
   //! ROS topic subscriber.
   ros::Subscriber subscriber_;
-
-  //! ROS topic name to subscribe to.
-  //std::string subscriberTopic_;
   
+  
+
 };
 
 #endif
