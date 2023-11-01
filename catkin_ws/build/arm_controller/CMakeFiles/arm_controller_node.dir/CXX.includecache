@@ -13,12 +13,12 @@ std_msgs/Float64.h
 /home/ludovica/RL/catkin_ws/src/arm_controller/include/Arm_Controller/std_msgs/Float64.h
 sensor_msgs/JointState.h
 /home/ludovica/RL/catkin_ws/src/arm_controller/include/Arm_Controller/sensor_msgs/JointState.h
+string
+-
 
 /home/ludovica/RL/catkin_ws/src/arm_controller/src/Arm_Controller.cpp
 Arm_Controller/Arm_Controller.h
 /home/ludovica/RL/catkin_ws/src/arm_controller/src/Arm_Controller/Arm_Controller.h
-string
--
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h

@@ -1,0 +1,31 @@
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/ludovica/RL/catkin_ws/src/arm_controller/include/Arm_Controller/Arm_Controller.h:4[m[K,
+                 from [01m[K/home/ludovica/RL/catkin_ws/src/arm_controller/src/Arm_Controller.cpp:1[m[K:
+[01m[K/home/ludovica/RL/catkin_ws/src/arm_controller/src/Arm_Controller.cpp:[m[K In member function ‘[01m[Kvoid Arm_Controller::start_controller()[m[K’:
+[01m[K/home/ludovica/RL/catkin_ws/src/arm_controller/src/Arm_Controller.cpp:39:99:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ksensor_msgs::JointState[m[K’ {aka ‘[01m[Ksensor_msgs::JointState_<std::allocator<void> >[m[K’}
+   39 |             ROS_INFO("Joint %s: Position %.4f", latestJointState.name[i].c_str(), latestJointState[01;31m[K->[m[Kposition[i]);
+      |                                                                                                   [01;31m[K^~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/ludovica/RL/catkin_ws/src/arm_controller/src/Arm_Controller.cpp:39:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   39 |             [01;36m[KROS_INFO[m[K("Joint %s: Position %.4f", latestJointState.name[i].c_str(), latestJointState->position[i]);
+      |             [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ludovica/RL/catkin_ws/src/arm_controller/src/Arm_Controller.cpp:43:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_messages[m[K’ was not declared in this scope
+   43 |         publisher_joint_0.publish([01;31m[Kcmd_messages[m[K[0]);
+      |                                   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ludovica/RL/catkin_ws/src/arm_controller/src/Arm_Controller.cpp:48:9:[m[K [01;31m[Kerror: [m[K‘[01m[KloopRate[m[K’ was not declared in this scope
+   48 |         [01;31m[KloopRate[m[K.sleep();
+      |         [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/arm_controller_node.dir/build.make:76: CMakeFiles/arm_controller_node.dir/src/Arm_Controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/arm_controller_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

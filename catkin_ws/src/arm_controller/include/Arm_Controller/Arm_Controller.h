@@ -4,6 +4,7 @@
 #include <ros/ros.h>
 #include "std_msgs/Float64.h"
 #include "sensor_msgs/JointState.h"
+#include <string>
 
 
 /*!
@@ -23,6 +24,12 @@ class Arm_Controller
    */
   virtual ~Arm_Controller();
 
+/*!
+  *Start controller : 
+    It receives information about the positions of the joints 
+    and publishes the control command */
+  void start_controller();
+
  private:
 
   /*!
@@ -34,11 +41,17 @@ class Arm_Controller
   //! ROS node handle.
   ros::NodeHandle& nodeHandle_;
 
-  //! ROS topic subscriber.
+  //! ROS subscriber.
   ros::Subscriber subscriber_;
   
-  
+  //! ROS publishers 
+  ros::Publisher publisher_joint_0;
+  ros::Publisher publisher_joint_1;
+  ros::Publisher publisher_joint_2;
+  ros::Publisher publisher_joint_3;
 
+  //Latest joint states (used for controlling the robot)
+  sensor_msgs::JointState latestJointState;
 };
 
 #endif

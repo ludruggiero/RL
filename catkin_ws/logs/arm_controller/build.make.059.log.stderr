@@ -1,0 +1,26 @@
+[01m[K/home/ludovica/RL/catkin_ws/src/arm_controller/src/Arm_Controller.cpp:4:61:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K)[m[K’ token
+    4 | Arm_Controller::Arm_Controller(ros::NodeHandle& nodeHandle, [01;31m[K)[m[K
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/ludovica/RL/catkin_ws/src/arm_controller/src/Arm_Controller.cpp:4:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KArm_Controller::Arm_Controller(ros::NodeHandle&, int)[m[K’
+    4 | [01;31m[KArm_Controller[m[K::Arm_Controller(ros::NodeHandle& nodeHandle, )
+      | [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ludovica/RL/catkin_ws/src/arm_controller/src/Arm_Controller.cpp:1[m[K:
+[01m[K/home/ludovica/RL/catkin_ws/src/arm_controller/include/Arm_Controller/Arm_Controller.h:13:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KArm_Controller::Arm_Controller(const Arm_Controller&)[m[K’
+   13 | class [01;36m[KArm_Controller[m[K
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ludovica/RL/catkin_ws/src/arm_controller/include/Arm_Controller/Arm_Controller.h:20:3:[m[K [01;36m[Knote: [m[K                ‘[01m[KArm_Controller::Arm_Controller(ros::NodeHandle&)[m[K’
+   20 |   [01;36m[KArm_Controller[m[K(ros::NodeHandle& nodeHandle);
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ludovica/RL/catkin_ws/src/arm_controller/include/Arm_Controller/Arm_Controller.h:13:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Arm_Controller[m[K’ defined here
+   13 | class [01;36m[KArm_Controller[m[K
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ludovica/RL/catkin_ws/src/arm_controller/src/Arm_Controller.cpp:23:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’
+   23 | void Arm_Controller::topicCallback[34m[K([m[Kconst[01;31m[K [m[K[32m[Ksensor_msgs[m[K::JointState::& message)
+      |                                   [34m[K~[m[K     [01;31m[K^[m[K[32m[K~~~~~~~~~~~[m[K
+      |                                         [32m[K)[m[K
+[01m[K/home/ludovica/RL/catkin_ws/src/arm_controller/src/Arm_Controller.cpp:23:42:[m[K [01;31m[Kerror: [m[Kexpected initializer
+   23 | void Arm_Controller::topicCallback(const [01;31m[Ksensor_msgs[m[K::JointState::& message)
+      |                                          [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/arm_controller_node.dir/build.make:76: CMakeFiles/arm_controller_node.dir/src/Arm_Controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/arm_controller_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
