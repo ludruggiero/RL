@@ -1,0 +1,15 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[ 15%] Built target my_pkg_listener
+[ 30%] Built target my_pkg_node
+[ 30%] Built target std_msgs_generate_messages_eus
+[ 30%] Built target std_msgs_generate_messages_nodejs
+[ 30%] Built target _my_pkg_generate_messages_check_deps_my_msg
+[ 38%] Built target my_pkg_generate_messages_lisp
+[ 69%] Built target my_pkg_generate_messages_nodejs
+[ 69%] Built target my_pkg_generate_messages_cpp
+[ 84%] Built target my_pkg_generate_messages_py
+[ 84%] Built target my_pkg_generate_messages_eus
+[ 84%] Built target my_pkg_generate_messages
+[100%] Built target my_pkg

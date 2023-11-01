@@ -1,0 +1,7 @@
+/usr/bin/ld: CMakeFiles/arm_controller_node.dir/src/arm_controller_node.cpp.o: in function `main':
+arm_controller_node.cpp:(.text+0x15e): undefined reference to `Arm_Controller::Arm_Controller(ros::NodeHandle&)'
+/usr/bin/ld: arm_controller_node.cpp:(.text+0x172): undefined reference to `Arm_Controller::~Arm_Controller()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/arm_controller_node.dir/build.make:101: /home/ludovica/RL/catkin_ws/devel/.private/arm_controller/lib/arm_controller/arm_controller_node] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/arm_controller_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

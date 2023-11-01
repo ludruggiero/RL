@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ludovica/RL/catkin_ws/devel/.private/arm_controller/setup.sh

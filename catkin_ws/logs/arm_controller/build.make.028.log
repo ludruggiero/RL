@@ -1,0 +1,20 @@
+[35m[1mScanning dependencies of target arm_controller_node[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/arm_controller_node.dir/src/arm_controller_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/arm_controller_node.dir/src/Arm_Controller.cpp.o[0m
+[01m[K/home/ludovica/RL/catkin_ws/src/arm_controller/src/arm_controller_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ludovica/RL/catkin_ws/src/arm_controller/src/arm_controller_node.cpp:14:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kparam[m[K’ was not declared in this scope
+   14 |  if (n.getParam("/my_int_param", [01;31m[Kparam[m[K))
+      |                                  [01;31m[K^~~~~[m[K
+[01m[K/home/ludovica/RL/catkin_ws/src/arm_controller/src/arm_controller_node.cpp:14:34:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:54[m[K,
+                 from [01m[K/home/ludovica/RL/catkin_ws/src/arm_controller/src/arm_controller_node.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/param.h:44:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kros::param[m[K’
+   44 | namespace [01;36m[Kparam[m[K
+      |           [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/param.h:651:3:[m[K [01;36m[Knote: [m[K  ‘[01m[Kros::param::param[m[K’
+  651 | T [01;36m[Kparam[m[K(const std::string& param_name, const T& default_val)
+      |   [01;36m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/arm_controller_node.dir/build.make:63: CMakeFiles/arm_controller_node.dir/src/arm_controller_node.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/arm_controller_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
