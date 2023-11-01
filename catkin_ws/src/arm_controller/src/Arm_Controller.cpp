@@ -36,7 +36,6 @@ Arm_Controller::~Arm_Controller()
 
 void Arm_Controller::topicCallback(const sensor_msgs::JointState& message)
 {
-     ROS_INFO("\n--Joint States--");
     for (size_t i = 0; i < message.name.size(); i++) {
         // ROS_INFO("Joint %s: Position %.4f", message.name[i].c_str(), message.position[i]);
     }
@@ -49,10 +48,18 @@ void Arm_Controller::start_controller(){
         std_msgs::Float64 cmd_messages[4];
         ros::Rate loopRate(10);
         ros::spinOnce(); // calling the callback function 
+        double frequency = 0.2; 
+        double amplitude = M_PI / 2.0; // +/- pi/2
+        
+        //cmd_messag
         for(i=0;i<4; ++i){
+            double time = ros::Time::now().toSec();
+            double angle = amplitude * sin(2 * M_PI * frequency * time);
+            ROS_INFO("\n--Joint States--");
             ROS_INFO("Joint %s: Position %.4f", latestJointState.name[i].c_str(), latestJointState.position[i]);
-            cmd_messages[i].data = latestJointState.position[i]+1/(2*3.14);
+            cmd_messages[i].data = angle;
         }
+    
         
         // Sending commands to the actuators
         publisher_joint_0.publish(cmd_messages[0]);
