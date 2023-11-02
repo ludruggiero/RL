@@ -9,13 +9,12 @@
   <!-- Load joint controller configurations from arm_control.yaml -->
   <rosparam file="$(find arm_control)/config/arm_control.yaml" command="load"/>
   <param name="/$(arg robot_name)/joint_state_controller/publish_rate" value="$(arg joint_state_frequency)" />
+  <!-- <param name="robot_description" command="$(find xacro)/xacro $(find arm_description)/urdf/arm.urdf.xacro" /> -->
     
   <!-- Spawn joint controllers using controller_manager -->
   <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="/$(arg robot_name)"  args="$(arg controllers)">
   </node>
-  <!-- <node name="controller_manager" pkg="controller_manager" type="spawner" respawn="false" output="screen"  args="$(arg controllers)">
-  </node> -->
-
+  
  <!-- convert joint states to TF transforms for rviz, etc -->
  <node name="robot_state_publisher" pkg="robot_state_publisher"
   type="robot_state_publisher"  respawn="false" output="screen">

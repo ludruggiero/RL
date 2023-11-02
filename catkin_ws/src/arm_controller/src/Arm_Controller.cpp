@@ -48,7 +48,7 @@ void Arm_Controller::start_controller(){
         std_msgs::Float64 cmd_messages[4];
         ros::Rate loopRate(10);
         ros::spinOnce(); // calling the callback function 
-        double frequency = 0.2; 
+        double frequency = 0.05; 
         double amplitude = M_PI / 2.0; // +/- pi/2
         
         //cmd_messag
