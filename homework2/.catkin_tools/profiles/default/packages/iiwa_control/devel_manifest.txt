@@ -1,0 +1,5 @@
+iiwa_stack/iiwa_control
+/home/ludovica/RL/homework2/devel/.private/iiwa_control/cmake.lock /home/ludovica/RL/homework2/devel/./cmake.lock
+/home/ludovica/RL/homework2/devel/.private/iiwa_control/share/iiwa_control/cmake/iiwa_controlConfig.cmake /home/ludovica/RL/homework2/devel/share/iiwa_control/cmake/iiwa_controlConfig.cmake
+/home/ludovica/RL/homework2/devel/.private/iiwa_control/share/iiwa_control/cmake/iiwa_controlConfig-version.cmake /home/ludovica/RL/homework2/devel/share/iiwa_control/cmake/iiwa_controlConfig-version.cmake
+/home/ludovica/RL/homework2/devel/.private/iiwa_control/lib/pkgconfig/iiwa_control.pc /home/ludovica/RL/homework2/devel/lib/pkgconfig/iiwa_control.pc

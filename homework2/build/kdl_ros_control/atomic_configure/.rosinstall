@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ludovica/RL/homework2/devel/.private/kdl_ros_control/setup.sh
