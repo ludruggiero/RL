@@ -1,0 +1,35 @@
+CMake Warning (dev) at CMakeLists.txt:2 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    CMAKE_PROJECT_VERSION
+    CMAKE_PROJECT_VERSION_MAJOR
+    CMAKE_PROJECT_VERSION_MINOR
+    CMAKE_PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[33m[1mCMake Warning[0m at /home/ludovica/RL/homework2/src/kdl_robot/CMakeLists.txt:136 (add_executable):
+  Cannot generate a safe linker search path for target kdl_robot_test because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    link library [liborocos-kdl.so] in /usr/lib may be hidden by files in:
+      /home/ludovica/RL/homework2/src/kdl_robot/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/ludovica/RL/homework2/src/kdl_robot/CMakeLists.txt:136 (add_executable):
+  Cannot generate a safe runtime search path for target kdl_robot_test
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liborocos-kdl.so.1.4] in /usr/lib may be hidden by files in:
+      /home/ludovica/RL/homework2/src/kdl_robot/lib
+
+  Some of these libraries may not be found correctly.
+
+

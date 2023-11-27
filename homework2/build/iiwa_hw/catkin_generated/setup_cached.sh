@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/ludovica/RL/homework2/devel/.private/iiwa_hw:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/ludovica/RL/homework2/devel/.private/iiwa_hw/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/ludovica/RL/homework2/devel/.private/iiwa_hw/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/ludovica/RL/homework2/build/iiwa_hw'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/ludovica/RL/homework2/devel/.private/iiwa_hw/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_hw:$ROS_PACKAGE_PATH"

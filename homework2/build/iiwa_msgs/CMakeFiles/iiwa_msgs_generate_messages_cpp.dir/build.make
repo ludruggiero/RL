@@ -117,8 +117,8 @@ CMakeFiles/iiwa_msgs_generate_messages_cpp: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianEulerPose.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianEulerPose.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianEulerPose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianEulerPose.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianEulerPose.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianEulerPose.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianEulerPose.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from iiwa_msgs/CartesianEulerPose.msg"
 	cd /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs && /home/ludovica/RL/homework2/build/iiwa_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianEulerPose.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -138,12 +138,12 @@ CMakeFiles/iiwa_msgs_generate_messages_cpp: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianPose.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianPose.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianPose.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianPose.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianPose.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianPose.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianPose.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianPose.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianPose.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianPose.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianPose.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianPose.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianPose.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from iiwa_msgs/CartesianPose.msg"
 	cd /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs && /home/ludovica/RL/homework2/build/iiwa_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -156,17 +156,17 @@ CMakeFiles/iiwa_msgs_generate_messages_cpp: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianVelocity.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianVelocity.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianVelocity.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianVelocity.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianVelocity.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianVelocity.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianVelocity.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from iiwa_msgs/CartesianVelocity.msg"
 	cd /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs && /home/ludovica/RL/homework2/build/iiwa_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianVelocity.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianWrench.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianWrench.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianWrench.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianWrench.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianWrench.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianWrench.h: /opt/ros/noetic/share/geometry_msgs/msg/Wrench.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianWrench.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/CartesianWrench.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from iiwa_msgs/CartesianWrench.msg"
 	cd /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs && /home/ludovica/RL/homework2/build/iiwa_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianWrench.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -264,67 +264,67 @@ CMakeFiles/iiwa_msgs_generate_messages_cpp: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/Spline.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/Spline.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/Spline.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/Spline.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/Spline.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/Spline.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/Spline.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/Spline.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/Spline.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/Spline.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/Spline.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/Spline.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/Spline.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/Spline.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/Spline.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating C++ code from iiwa_msgs/Spline.msg"
 	cd /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs && /home/ludovica/RL/homework2/build/iiwa_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SplineSegment.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SplineSegment.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SplineSegment.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SplineSegment.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SplineSegment.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SplineSegment.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SplineSegment.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SplineSegment.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SplineSegment.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SplineSegment.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SplineSegment.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SplineSegment.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SplineSegment.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SplineSegment.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SplineSegment.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SplineSegment.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating C++ code from iiwa_msgs/SplineSegment.msg"
 	cd /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs && /home/ludovica/RL/homework2/build/iiwa_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineAction.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating C++ code from iiwa_msgs/MoveAlongSplineAction.msg"
 	cd /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs && /home/ludovica/RL/homework2/build/iiwa_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineAction.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionGoal.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionGoal.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating C++ code from iiwa_msgs/MoveAlongSplineActionGoal.msg"
 	cd /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs && /home/ludovica/RL/homework2/build/iiwa_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -332,8 +332,8 @@ CMakeFiles/iiwa_msgs_generate_messages_cpp: /home/ludovica/RL/homework2/devel/.p
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionResult.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionResult.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionResult.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating C++ code from iiwa_msgs/MoveAlongSplineActionResult.msg"
@@ -351,15 +351,15 @@ CMakeFiles/iiwa_msgs_generate_messages_cpp: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineGoal.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveAlongSplineGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating C++ code from iiwa_msgs/MoveAlongSplineGoal.msg"
 	cd /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs && /home/ludovica/RL/homework2/build/iiwa_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -378,36 +378,36 @@ CMakeFiles/iiwa_msgs_generate_messages_cpp: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseAction.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating C++ code from iiwa_msgs/MoveToCartesianPoseAction.msg"
 	cd /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs && /home/ludovica/RL/homework2/build/iiwa_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseAction.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionGoal.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionGoal.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionGoal.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating C++ code from iiwa_msgs/MoveToCartesianPoseActionGoal.msg"
 	cd /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs && /home/ludovica/RL/homework2/build/iiwa_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -415,8 +415,8 @@ CMakeFiles/iiwa_msgs_generate_messages_cpp: /home/ludovica/RL/homework2/devel/.p
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionResult.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionResult.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionResult.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating C++ code from iiwa_msgs/MoveToCartesianPoseActionResult.msg"
@@ -424,9 +424,9 @@ CMakeFiles/iiwa_msgs_generate_messages_cpp: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionFeedback.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionFeedback.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionFeedback.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating C++ code from iiwa_msgs/MoveToCartesianPoseActionFeedback.msg"
@@ -434,13 +434,13 @@ CMakeFiles/iiwa_msgs_generate_messages_cpp: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseGoal.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseGoal.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToCartesianPoseGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating C++ code from iiwa_msgs/MoveToCartesianPoseGoal.msg"
 	cd /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs && /home/ludovica/RL/homework2/build/iiwa_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -459,37 +459,37 @@ CMakeFiles/iiwa_msgs_generate_messages_cpp: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionAction.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionAction.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating C++ code from iiwa_msgs/MoveToJointPositionAction.msg"
 	cd /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs && /home/ludovica/RL/homework2/build/iiwa_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionAction.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionActionGoal.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionActionGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionActionGoal.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionActionGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionActionGoal.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionActionGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating C++ code from iiwa_msgs/MoveToJointPositionActionGoal.msg"
 	cd /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs && /home/ludovica/RL/homework2/build/iiwa_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionActionResult.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionActionResult.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionActionResult.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating C++ code from iiwa_msgs/MoveToJointPositionActionResult.msg"
@@ -507,9 +507,9 @@ CMakeFiles/iiwa_msgs_generate_messages_cpp: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionGoal.h: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionGoal.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/MoveToJointPositionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating C++ code from iiwa_msgs/MoveToJointPositionGoal.msg"
 	cd /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs && /home/ludovica/RL/homework2/build/iiwa_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -528,13 +528,13 @@ CMakeFiles/iiwa_msgs_generate_messages_cpp: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/ConfigureControlMode.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/ConfigureControlMode.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/srv/ConfigureControlMode.srv
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/ConfigureControlMode.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianControlModeLimits.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/ConfigureControlMode.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/ConfigureControlMode.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianImpedanceControlMode.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/ConfigureControlMode.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/ConfigureControlMode.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/DesiredForceControlMode.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/ConfigureControlMode.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/ConfigureControlMode.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointImpedanceControlMode.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/ConfigureControlMode.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SinePatternControlMode.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/ConfigureControlMode.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianControlModeLimits.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/ConfigureControlMode.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianImpedanceControlMode.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/ConfigureControlMode.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/ConfigureControlMode.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating C++ code from iiwa_msgs/ConfigureControlMode.srv"
@@ -570,8 +570,8 @@ CMakeFiles/iiwa_msgs_generate_messages_cpp: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SetSmartServoLinSpeedLimits.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SetSmartServoLinSpeedLimits.h: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/srv/SetSmartServoLinSpeedLimits.srv
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SetSmartServoLinSpeedLimits.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SetSmartServoLinSpeedLimits.h: /opt/ros/noetic/share/geometry_msgs/msg/Twist.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SetSmartServoLinSpeedLimits.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SetSmartServoLinSpeedLimits.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/include/iiwa_msgs/SetSmartServoLinSpeedLimits.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating C++ code from iiwa_msgs/SetSmartServoLinSpeedLimits.srv"

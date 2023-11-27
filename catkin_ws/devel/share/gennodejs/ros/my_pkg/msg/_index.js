@@ -1,1 +1,0 @@
-/home/ludovica/RL/catkin_ws/devel/.private/my_pkg/share/gennodejs/ros/my_pkg/msg/_index.js

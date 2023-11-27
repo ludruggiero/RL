@@ -1,7 +1,0 @@
-[01m[K/home/ludovica/RL/catkin_ws/src/arm_controller/src/arm_controller_node.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KArm_Controller/Arm_Controller.h: No such file or directory
-    2 | #include [01;31m[K"Arm_Controller/Arm_Controller.h"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/arm_controller_node.dir/build.make:63: CMakeFiles/arm_controller_node.dir/src/arm_controller_node.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/arm_controller_node.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

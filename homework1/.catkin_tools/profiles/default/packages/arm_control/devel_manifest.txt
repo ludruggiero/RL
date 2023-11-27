@@ -1,0 +1,5 @@
+arm_control
+/home/ludovica/RL/homework1/devel/.private/arm_control/cmake.lock /home/ludovica/RL/homework1/devel/./cmake.lock
+/home/ludovica/RL/homework1/devel/.private/arm_control/share/arm_control/cmake/arm_controlConfig.cmake /home/ludovica/RL/homework1/devel/share/arm_control/cmake/arm_controlConfig.cmake
+/home/ludovica/RL/homework1/devel/.private/arm_control/share/arm_control/cmake/arm_controlConfig-version.cmake /home/ludovica/RL/homework1/devel/share/arm_control/cmake/arm_controlConfig-version.cmake
+/home/ludovica/RL/homework1/devel/.private/arm_control/lib/pkgconfig/arm_control.pc /home/ludovica/RL/homework1/devel/lib/pkgconfig/arm_control.pc

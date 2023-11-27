@@ -1,1 +1,0 @@
-/home/ludovica/RL/catkin_ws/devel/.private/my_pkg/share/roseus/ros/my_pkg/msg/my_msg.l

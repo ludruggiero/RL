@@ -2271,11 +2271,11 @@ CMakeFiles/_iiwa_msgs_generate_messages_check_deps_JointTorque.dir/clean:
 # Target rules for target CMakeFiles/iiwa_msgs_generate_messages.dir
 
 # All Build rule for target.
-CMakeFiles/iiwa_msgs_generate_messages.dir/all: CMakeFiles/iiwa_msgs_generate_messages_lisp.dir/all
-CMakeFiles/iiwa_msgs_generate_messages.dir/all: CMakeFiles/iiwa_msgs_generate_messages_eus.dir/all
 CMakeFiles/iiwa_msgs_generate_messages.dir/all: CMakeFiles/iiwa_msgs_generate_messages_cpp.dir/all
 CMakeFiles/iiwa_msgs_generate_messages.dir/all: CMakeFiles/iiwa_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/iiwa_msgs_generate_messages.dir/all: CMakeFiles/iiwa_msgs_generate_messages_py.dir/all
+CMakeFiles/iiwa_msgs_generate_messages.dir/all: CMakeFiles/iiwa_msgs_generate_messages_lisp.dir/all
+CMakeFiles/iiwa_msgs_generate_messages.dir/all: CMakeFiles/iiwa_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/iiwa_msgs_generate_messages.dir/build.make CMakeFiles/iiwa_msgs_generate_messages.dir/depend
 	$(MAKE) -f CMakeFiles/iiwa_msgs_generate_messages.dir/build.make CMakeFiles/iiwa_msgs_generate_messages.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num= "Built target iiwa_msgs_generate_messages"
