@@ -1,3 +1,3 @@
 # RL
 
-This repository contains ROS (Robot Operating System) code developed during the Robotics Lab course.
+This repository contains the homework 1 code developed for the Robotics Lab course.
