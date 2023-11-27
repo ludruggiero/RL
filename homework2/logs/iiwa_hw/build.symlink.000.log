@@ -1,0 +1,5 @@
+Symlinking /home/ludovica/RL/homework2/devel/share/iiwa_hw/cmake/iiwa_hwConfig.cmake
+Symlinking /home/ludovica/RL/homework2/devel/share/iiwa_hw/cmake/iiwa_hwConfig-version.cmake
+Symlinking /home/ludovica/RL/homework2/devel/lib/libiiwa_hw.so
+Symlinking /home/ludovica/RL/homework2/devel/lib/pkgconfig/iiwa_hw.pc
+Symlinking /home/ludovica/RL/homework2/devel/lib/iiwa_hw/iiwa_hw-bin

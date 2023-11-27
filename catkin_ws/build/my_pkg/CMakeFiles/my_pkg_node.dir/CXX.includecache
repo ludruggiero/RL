@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/ludovica/RL/catkin_ws/devel/.private/my_pkg/include/my_pkg/my_msg.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
 /home/ludovica/RL/catkin_ws/src/my_pkg/src/my_pkg_node.cpp
 ros/ros.h
 /home/ludovica/RL/catkin_ws/src/my_pkg/src/ros/ros.h
