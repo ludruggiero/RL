@@ -1,1 +1,0 @@
-/home/ludovica/RL/homework2/devel/.private/kdl_parser_py/lib/pkgconfig/kdl_parser_py.pc

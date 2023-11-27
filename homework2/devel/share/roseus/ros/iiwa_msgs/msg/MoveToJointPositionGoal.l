@@ -1,1 +1,0 @@
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionGoal.l

@@ -1,5 +1,0 @@
-iiwa_stack/iiwa_moveit
-/home/ludovica/RL/homework2/devel/.private/iiwa_moveit/cmake.lock /home/ludovica/RL/homework2/devel/./cmake.lock
-/home/ludovica/RL/homework2/devel/.private/iiwa_moveit/share/iiwa_moveit/cmake/iiwa_moveitConfig-version.cmake /home/ludovica/RL/homework2/devel/share/iiwa_moveit/cmake/iiwa_moveitConfig-version.cmake
-/home/ludovica/RL/homework2/devel/.private/iiwa_moveit/share/iiwa_moveit/cmake/iiwa_moveitConfig.cmake /home/ludovica/RL/homework2/devel/share/iiwa_moveit/cmake/iiwa_moveitConfig.cmake
-/home/ludovica/RL/homework2/devel/.private/iiwa_moveit/lib/pkgconfig/iiwa_moveit.pc /home/ludovica/RL/homework2/devel/lib/pkgconfig/iiwa_moveit.pc

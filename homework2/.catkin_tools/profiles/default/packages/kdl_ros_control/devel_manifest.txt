@@ -1,7 +1,0 @@
-kdl_robot
-/home/ludovica/RL/homework2/devel/.private/kdl_ros_control/cmake.lock /home/ludovica/RL/homework2/devel/./cmake.lock
-/home/ludovica/RL/homework2/devel/.private/kdl_ros_control/share/kdl_ros_control/cmake/kdl_ros_controlConfig-version.cmake /home/ludovica/RL/homework2/devel/share/kdl_ros_control/cmake/kdl_ros_controlConfig-version.cmake
-/home/ludovica/RL/homework2/devel/.private/kdl_ros_control/share/kdl_ros_control/cmake/kdl_ros_controlConfig.cmake /home/ludovica/RL/homework2/devel/share/kdl_ros_control/cmake/kdl_ros_controlConfig.cmake
-/home/ludovica/RL/homework2/devel/.private/kdl_ros_control/lib/libkdl_ros_control.so /home/ludovica/RL/homework2/devel/lib/libkdl_ros_control.so
-/home/ludovica/RL/homework2/devel/.private/kdl_ros_control/lib/pkgconfig/kdl_ros_control.pc /home/ludovica/RL/homework2/devel/lib/pkgconfig/kdl_ros_control.pc
-/home/ludovica/RL/homework2/devel/.private/kdl_ros_control/lib/kdl_ros_control/kdl_robot_test /home/ludovica/RL/homework2/devel/lib/kdl_ros_control/kdl_robot_test
