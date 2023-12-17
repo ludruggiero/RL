@@ -18,15 +18,17 @@ Arm_Controller::Arm_Controller(ros::NodeHandle& nodeHandle )
     latestJointState.position[2] = 0.0; 
     latestJointState.position[3] = 0.0; 
 
-  subscriber_ = nodeHandle_.subscribe("/arm/joint_states", 1,
-                                      &Arm_Controller::topicCallback, this);
 
-  publisher_joint_0 = nodeHandle_.advertise<std_msgs::Float64>("/arm/joint0_position_controller/command", 1);                                    
-  publisher_joint_1 = nodeHandle_.advertise<std_msgs::Float64>("/arm/joint1_position_controller/command", 1);    
-  publisher_joint_2 = nodeHandle_.advertise<std_msgs::Float64>("/arm/joint2_position_controller/command", 1);    
-  publisher_joint_3 = nodeHandle_.advertise<std_msgs::Float64>("/arm/joint3_position_controller/command", 1);
+    // the data sent to the callback function is the object of the class. The private parameters can then be modified.
+    subscriber_ = nodeHandle_.subscribe("/arm/joint_states", 1,
+                                        &Arm_Controller::topicCallback, this);
 
-  ROS_INFO("Successfully launched node.");
+    publisher_joint_0 = nodeHandle_.advertise<std_msgs::Float64>("/arm/joint0_position_controller/command", 1);                                    
+    publisher_joint_1 = nodeHandle_.advertise<std_msgs::Float64>("/arm/joint1_position_controller/command", 1);    
+    publisher_joint_2 = nodeHandle_.advertise<std_msgs::Float64>("/arm/joint2_position_controller/command", 1);    
+    publisher_joint_3 = nodeHandle_.advertise<std_msgs::Float64>("/arm/joint3_position_controller/command", 1);
+
+    ROS_INFO("Successfully launched node.");
 }
 
 Arm_Controller::~Arm_Controller()
