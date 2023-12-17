@@ -1,5 +1,5 @@
-#ifndef ARM_CONTROLLER_NODE
-#define ARM_CONTROLLER_NODE
+#ifndef ARM_CONTROLLER_
+#define ARM_CONTROLLER_
 
 #include <ros/ros.h>
 #include "std_msgs/Float64.h"
@@ -44,7 +44,7 @@ class Arm_Controller
   //! ROS subscriber.
   ros::Subscriber subscriber_;
   
-  //! ROS publishers 
+  //! ROS publishers : one subscriber for each joint
   ros::Publisher publisher_joint_0;
   ros::Publisher publisher_joint_1;
   ros::Publisher publisher_joint_2;

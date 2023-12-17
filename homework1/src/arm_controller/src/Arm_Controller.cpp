@@ -35,10 +35,11 @@ Arm_Controller::~Arm_Controller()
 
 
 void Arm_Controller::topicCallback(const sensor_msgs::JointState& message)
+// recives a message from ros and updates the latestJointState parameter of the class
 {
-    for (size_t i = 0; i < message.name.size(); i++) {
-        // ROS_INFO("Joint %s: Position %.4f", message.name[i].c_str(), message.position[i]);
-    }
+    // for (size_t i = 0; i < message.name.size(); i++) {
+    //     // ROS_INFO("Joint %s: Position %.4f", message.name[i].c_str(), message.position[i]);
+    // }
     latestJointState = message; 
 }  
 
@@ -46,6 +47,7 @@ void Arm_Controller::start_controller(){
     while (ros::ok()) {
         int i;
         std_msgs::Float64 cmd_messages[4];
+        // the loop will iterate at a rate of 10 times per second.
         ros::Rate loopRate(10);
         ros::spinOnce(); // calling the callback function 
         double frequency = 0.05; 
@@ -66,6 +68,8 @@ void Arm_Controller::start_controller(){
         publisher_joint_1.publish(cmd_messages[1]);
         publisher_joint_2.publish(cmd_messages[2]);
         publisher_joint_3.publish(cmd_messages[3]);
+
+        // sleeps till next iteration
         loopRate.sleep();   
     }
 

@@ -42,9 +42,12 @@
                     <image>
                         <width>800</width>
                         <height>600</height>
+                        <!--specifies the format of the image. "R8G8B8" likely indicates an RGB image with 8 bits per channel-->
                         <format>R8G8B8</format>
                     </image>
                     <clip>
+                    <!-- <near> and <far> specify the distances at which objects become visible and invisible, respectively. 
+                    In this case, objects closer than 0.02 units or farther than 300 units from the camera might be clipped.-->
                         <near>0.02</near>
                         <far>300</far>
                     </clip>
@@ -62,6 +65,7 @@
                     <cameraInfoTopicName>camera_info</cameraInfoTopicName>
                     <frameName>camera_link</frameName>
                     <hackBaseline>0.07</hackBaseline>
+                    <!--parameters related to camera distortion.-->
                     <distortionK1>0.0</distortionK1>
                     <distortionK2>0.0</distortionK2>
                     <distortionK3>0.0</distortionK3>
