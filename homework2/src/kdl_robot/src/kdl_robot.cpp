@@ -187,6 +187,7 @@ void KDLRobot::getInverseKinematics(KDL::Frame &f,
                               KDL::JntArray &ddq)
 {
     q = getInvKin(q,f);
+    // The solver updates dq
     ikVelSol_->CartToJnt(q,twist,dq);
 
     Eigen::Matrix<double,6,7> J = toEigen(getEEJacobian());
@@ -194,6 +195,7 @@ void KDLRobot::getInverseKinematics(KDL::Frame &f,
     Eigen::VectorXd Jdot_qdot = getEEJacDotqDot();
     Eigen::Matrix<double,7,6> Jpinv = pseudoinverse(J);
 
+    // open loop kinematic inversion
     ddq.data = Jpinv*(x_ddot - Jdot_qdot);
 }
 

@@ -21,6 +21,7 @@ Eigen::VectorXd KDLController::idCntr(KDL::JntArray &_qd,
     Eigen::VectorXd de = _dqd.data - dq;
 
     Eigen::VectorXd ddqd = _ddqd.data;
+    // getJsim returns the Joint Space Inertia Matrix
     return robot_->getJsim() * (ddqd + _Kd*de + _Kp*e)
             + robot_->getCoriolis() + robot_->getGravity() /*+ robot_->getFriction() /*friction compensation?*/;
 }

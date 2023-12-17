@@ -151,7 +151,7 @@ trajectory_point KDLPlanner::compute_trajectory(double time){
   if (trajRadius_ < 0) {
     traj = compute_linear_trajectory(time);
   }
-  else if (trajInit_.isApprox(trajEnd_)) {
+  else if (trajInit_.isApprox(trajEnd_)) { // if initial and final point coincide, the trajectory is circular
     traj = compute_circle_trajectory(time);
   }
   else {
@@ -218,6 +218,9 @@ trajectory_point KDLPlanner::compute_linear_trajectory(double time){
   return traj;
 }
 
+
+// Computes the Trapezoidal Velocity profile of the curvilinearAbscissa, the acceleration time must be specified
+
 curvilinearAbscissa KDLPlanner::trapezoidal_vel(double time){
 
 curvilinearAbscissa abscissa;
@@ -247,8 +250,7 @@ if (time >= 0 && time <= accDuration_) {
 
 
 
-
-
+// Computes the Cubic Polinomial Velocity profile of the curvilinearAbscissa, trough the resolution of a linear system
 
 curvilinearAbscissa KDLPlanner::cubic_polinomial(double time) {
 
@@ -266,6 +268,9 @@ curvilinearAbscissa KDLPlanner::cubic_polinomial(double time) {
   Boundaries << 0,0,1,0;
 
   if (!coeffsComputed){
+    // QR factorization is a decomposition of a matrix A into a product 
+    // A = QR of an orthonormal matrix Q and an upper triangular matrix R.
+    // solve function solves the linear system CoeffsMat * coeffs = Boundaries
     coeffs = CoeffsMat.colPivHouseholderQr().solve(Boundaries);
     coeffsComputed = true;
   }

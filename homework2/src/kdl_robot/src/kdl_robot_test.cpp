@@ -234,11 +234,11 @@ int main(int argc, char **argv)
             des_cart_acc = KDL::Twist::Zero();
             if (t <= init_time_slot) // wait a second
             {
-                p = planner.compute_trajectory(0.0);
+                p = planner.compute_trajectory(0.0); 
             }
             else if(t > init_time_slot && t <= traj_duration + init_time_slot)
             {
-                p = planner.compute_trajectory(t-init_time_slot);
+                p = planner.compute_trajectory(t-init_time_slot); 
                 des_cart_vel = KDL::Twist(KDL::Vector(p.vel[0], p.vel[1], p.vel[2]),KDL::Vector::Zero());
                 des_cart_acc = KDL::Twist(KDL::Vector(p.acc[0], p.acc[1], p.acc[2]),KDL::Vector::Zero());
             }
