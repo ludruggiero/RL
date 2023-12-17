@@ -1,21 +1,21 @@
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/share/common-lisp/ros/my_pkg/msg/my_pkg-msg.asd, /home/ludovica/RL/homework1/devel/share/common-lisp/ros/my_pkg/msg/my_pkg-msg.asd)
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/share/common-lisp/ros/my_pkg/msg/my_msg.lisp, /home/ludovica/RL/homework1/devel/share/common-lisp/ros/my_pkg/msg/my_msg.lisp)
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/share/common-lisp/ros/my_pkg/msg/_package.lisp, /home/ludovica/RL/homework1/devel/share/common-lisp/ros/my_pkg/msg/_package.lisp)
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/share/common-lisp/ros/my_pkg/msg/_package_my_msg.lisp, /home/ludovica/RL/homework1/devel/share/common-lisp/ros/my_pkg/msg/_package_my_msg.lisp)
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/share/roseus/ros/my_pkg/manifest.l, /home/ludovica/RL/homework1/devel/share/roseus/ros/my_pkg/manifest.l)
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/share/roseus/ros/my_pkg/msg/my_msg.l, /home/ludovica/RL/homework1/devel/share/roseus/ros/my_pkg/msg/my_msg.l)
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/share/gennodejs/ros/my_pkg/_index.js, /home/ludovica/RL/homework1/devel/share/gennodejs/ros/my_pkg/_index.js)
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/share/gennodejs/ros/my_pkg/msg/my_msg.js, /home/ludovica/RL/homework1/devel/share/gennodejs/ros/my_pkg/msg/my_msg.js)
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/share/gennodejs/ros/my_pkg/msg/_index.js, /home/ludovica/RL/homework1/devel/share/gennodejs/ros/my_pkg/msg/_index.js)
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/share/my_pkg/cmake/my_pkgConfig-version.cmake, /home/ludovica/RL/homework1/devel/share/my_pkg/cmake/my_pkgConfig-version.cmake)
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/share/my_pkg/cmake/my_pkgConfig.cmake, /home/ludovica/RL/homework1/devel/share/my_pkg/cmake/my_pkgConfig.cmake)
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/share/my_pkg/cmake/my_pkg-msg-paths.cmake, /home/ludovica/RL/homework1/devel/share/my_pkg/cmake/my_pkg-msg-paths.cmake)
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/share/my_pkg/cmake/my_pkg-msg-extras.cmake, /home/ludovica/RL/homework1/devel/share/my_pkg/cmake/my_pkg-msg-extras.cmake)
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/lib/pkgconfig/my_pkg.pc, /home/ludovica/RL/homework1/devel/lib/pkgconfig/my_pkg.pc)
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/lib/python3/dist-packages/my_pkg/__init__.py, /home/ludovica/RL/homework1/devel/lib/python3/dist-packages/my_pkg/__init__.py)
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/lib/python3/dist-packages/my_pkg/msg/__init__.py, /home/ludovica/RL/homework1/devel/lib/python3/dist-packages/my_pkg/msg/__init__.py)
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/lib/python3/dist-packages/my_pkg/msg/_my_msg.py, /home/ludovica/RL/homework1/devel/lib/python3/dist-packages/my_pkg/msg/_my_msg.py)
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/lib/my_pkg/my_pkg_listener, /home/ludovica/RL/homework1/devel/lib/my_pkg/my_pkg_listener)
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/lib/my_pkg/my_pkg_node, /home/ludovica/RL/homework1/devel/lib/my_pkg/my_pkg_node)
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/lib/my_pkg/my_pkg, /home/ludovica/RL/homework1/devel/lib/my_pkg/my_pkg)
-Linked: (/home/ludovica/RL/homework1/devel/.private/my_pkg/include/my_pkg/my_msg.h, /home/ludovica/RL/homework1/devel/include/my_pkg/my_msg.h)
+Symlinking /home/ludovica/RL/homework1/devel/share/common-lisp/ros/my_pkg/msg/my_pkg-msg.asd
+Symlinking /home/ludovica/RL/homework1/devel/share/common-lisp/ros/my_pkg/msg/my_msg.lisp
+Symlinking /home/ludovica/RL/homework1/devel/share/common-lisp/ros/my_pkg/msg/_package.lisp
+Symlinking /home/ludovica/RL/homework1/devel/share/common-lisp/ros/my_pkg/msg/_package_my_msg.lisp
+Symlinking /home/ludovica/RL/homework1/devel/share/roseus/ros/my_pkg/manifest.l
+Symlinking /home/ludovica/RL/homework1/devel/share/roseus/ros/my_pkg/msg/my_msg.l
+Symlinking /home/ludovica/RL/homework1/devel/share/gennodejs/ros/my_pkg/_index.js
+Symlinking /home/ludovica/RL/homework1/devel/share/gennodejs/ros/my_pkg/msg/my_msg.js
+Symlinking /home/ludovica/RL/homework1/devel/share/gennodejs/ros/my_pkg/msg/_index.js
+Symlinking /home/ludovica/RL/homework1/devel/share/my_pkg/cmake/my_pkgConfig-version.cmake
+Symlinking /home/ludovica/RL/homework1/devel/share/my_pkg/cmake/my_pkgConfig.cmake
+Symlinking /home/ludovica/RL/homework1/devel/share/my_pkg/cmake/my_pkg-msg-paths.cmake
+Symlinking /home/ludovica/RL/homework1/devel/share/my_pkg/cmake/my_pkg-msg-extras.cmake
+Symlinking /home/ludovica/RL/homework1/devel/lib/pkgconfig/my_pkg.pc
+Symlinking /home/ludovica/RL/homework1/devel/lib/python3/dist-packages/my_pkg/__init__.py
+Symlinking /home/ludovica/RL/homework1/devel/lib/python3/dist-packages/my_pkg/msg/__init__.py
+Symlinking /home/ludovica/RL/homework1/devel/lib/python3/dist-packages/my_pkg/msg/_my_msg.py
+Symlinking /home/ludovica/RL/homework1/devel/lib/my_pkg/my_pkg_listener
+Symlinking /home/ludovica/RL/homework1/devel/lib/my_pkg/my_pkg_node
+Symlinking /home/ludovica/RL/homework1/devel/lib/my_pkg/my_pkg
+Symlinking /home/ludovica/RL/homework1/devel/include/my_pkg/my_msg.h
