@@ -4,7 +4,7 @@
 #include <sensor_msgs/image_encodings.h>
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
-#include "opencv2/opencv.hpp"
+#include "opencv2/opencv.hpp" // SimpleBlobDetector
 
 static const std::string OPENCV_WINDOW = "Image window";
 
@@ -37,6 +37,8 @@ public:
     cv_bridge::CvImagePtr cv_ptr;
     try
     {
+      // Since we're going to draw on the image, we need a mutable copy of it
+      // converted  in BGR8 fomat 
       cv_ptr = cv_bridge::toCvCopy(msg, sensor_msgs::image_encodings::BGR8);
     }
     catch (cv_bridge::Exception& e)
@@ -57,12 +59,12 @@ public:
     params.thresholdStep = 1;
 
     params.filterByColor = true;
-    params.blobColor = 0;
+    params.blobColor = 0; 
     params.minRepeatability = 4;
     params.minDistBetweenBlobs = 1;
 
     // Filter by Area.
-    params.filterByArea = true;
+    params.filterByArea = true; // filtered by number of pixels
     params.minArea = 100;
     params.maxArea = 10000000;
 
@@ -74,7 +76,7 @@ public:
     params.filterByConvexity = true;
     params.minConvexity = 0.87;
 
-    // Filter by Inertia
+    // Filter by Inertia (how elongated a shape is)
     params.filterByInertia = true;
     params.minInertiaRatio = 0.4;
 
@@ -107,6 +109,7 @@ public:
     cv::waitKey(1);
 
     // Output modified video stream
+    // ROS message 
     sensor_msgs::ImagePtr output_image_msg = cv_bridge::CvImage(std_msgs::Header(), "bgr8", im_with_keypoints).toImageMsg();
     image_pub_.publish(output_image_msg);
   }

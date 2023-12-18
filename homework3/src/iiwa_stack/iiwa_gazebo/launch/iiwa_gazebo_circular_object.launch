@@ -11,6 +11,7 @@
     <!-- |    controllers for the single joints, using the "trajectory" argument.            | -->
     <!-- ===================================================================================== -->
     
+    <!--PositionJointInterface added-->
     <arg name="hardware_interface" default="PositionJointInterface" />
     <arg name="robot_name" default="iiwa" />
     <arg name="model" default="iiwa14"/>
@@ -18,7 +19,7 @@
     
     <env name="GAZEBO_MODEL_PATH" value="$(find iiwa_gazebo)/models:$(optenv GAZEBO_MODEL_PATH)" />
 
-    <!-- Loads the Gazebo world. -->
+    <!-- Loads the Gazebo world -->
     <include file="$(find iiwa_gazebo)/launch/iiwa_world_circular_object.launch">
         <arg name="hardware_interface" value="$(arg hardware_interface)" />
         <arg name="robot_name" value="$(arg robot_name)" />

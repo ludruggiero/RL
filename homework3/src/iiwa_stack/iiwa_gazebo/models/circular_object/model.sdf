@@ -1,3 +1,5 @@
+<!-- Creation of the circular object that has been spawned in gazebo -->
+
 <?xml version="1.0"?>
 <sdf version="1.6">
   <model name="circular_object">
