@@ -202,6 +202,8 @@ int main(int argc, char **argv)
             // compute current jacobians
             KDL::Jacobian J_cam = robot.getEEJacobian();
             KDL::Frame cam_T_object(KDL::Rotation::Quaternion(aruco_pose[3], aruco_pose[4], aruco_pose[5], aruco_pose[6]), KDL::Vector(aruco_pose[0], aruco_pose[1], aruco_pose[2]));
+
+            // point 2a: transformation  base_T_object= Tc*Tmc 
             KDL::Frame base_T_object = robot.getEEFrame()*cam_T_object;
             
             // compute offset transformation
@@ -215,16 +217,20 @@ int main(int argc, char **argv)
             // look at point: compute rotation error from angle/axis
             Eigen::Matrix<double,3,1> aruco_pos_n = toEigen(cam_T_object.p); //(aruco_pose[0],aruco_pose[1],aruco_pose[2]);
             aruco_pos_n.normalize();    // this is the unit vector describing position of marker wrt camera (s in the pdf)
+
+
             // Eigen::Vector3d r_o = skew(Eigen::Vector3d(0,0,1))*aruco_pos_n;
             // double aruco_angle = std::acos(Eigen::Vector3d(0,0,1).dot(aruco_pos_n));
             // KDL::Rotation Re = KDL::Rotation::Rot(KDL::Vector(r_o[0], r_o[1], r_o[2]), aruco_angle);
 
             if (!USING_CONTROLLER_2B) {
-
+            // Point 2a controller 
             
             //   Eigen::Matrix<double, 3, 1> e_o = computeOrientationError(toEigen(robot.getEEFrame().M * Re),
             //                                                             toEigen(robot.getEEFrame().M));
             //   Eigen::Matrix<double, 3, 1> e_o_w = computeOrientationError(toEigen(Fi.M), toEigen(robot.getEEFrame().M));
+
+        
               Eigen::Matrix<double, 3, 1> e_o_n = computeOrientationError(toEigen(T_desired.M),
                                                                    toEigen(robot.getEEFrame().M));
             //   Eigen::Matrix<double,3,1> e_p = computeLinearError(pdi,toEigen(robot.getEEFrame().p));
@@ -239,7 +245,7 @@ int main(int argc, char **argv)
               Eigen::MatrixXd J_pinv = J_cam.data.completeOrthogonalDecomposition().pseudoInverse();
               dqd.data = 1.5 * J_pinv * x_tilde +
                          10 * (Eigen::Matrix<double, 7, 7>::Identity() - J_pinv * J_cam.data) *
-                         (qdi - toEigen(jnt_pos));
+                         (qdi - toEigen(jnt_pos)); // the null space acts on (initial_pos - joint_pos)
             } else {
                 // Using the controller required by point 2.b
                 Eigen::Matrix<double,3,3> R_c = toEigen(robot.getEEFrame().M);
@@ -321,6 +327,7 @@ int main(int argc, char **argv)
             // std::cout << "desired rotaion:" <<std::endl << R_off <<std::endl <<std::endl;
         }
         else{
+            // when the aruco is not visible, the robot uses a proportional controller to reach the initial pose 
             dqd.data = KP*(toEigen(init_jnt_pos) - toEigen(jnt_pos));
         }
         // Set joints
