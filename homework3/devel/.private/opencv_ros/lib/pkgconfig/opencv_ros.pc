@@ -1,0 +1,8 @@
+prefix=/home/ludovica/RL/homework3/devel/.private/opencv_ros
+
+Name: opencv_ros
+Description: Description of opencv_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

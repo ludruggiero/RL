@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ludovica/RL/homework3/devel/.private/iiwa_moveit/setup.sh

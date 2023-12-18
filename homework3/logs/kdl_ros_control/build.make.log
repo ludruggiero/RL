@@ -1,0 +1,60 @@
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target kdl_robot_test[0m
+[  7%] [32mBuilding CXX object CMakeFiles/kdl_robot_test.dir/src/kdl_robot_test.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/kdl_robot_test.dir/src/kdl_robot.cpp.o[0m
+[35m[1mScanning dependencies of target kdl_robot_vision_control[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/kdl_robot_vision_control.dir/src/kdl_robot_vision_control.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/kdl_robot_vision_control.dir/src/kdl_robot.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/kdl_robot_test.dir/src/kdl_control.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/kdl_robot_test.dir/src/kdl_planner.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable /home/ludovica/RL/homework3/devel/.private/kdl_ros_control/lib/kdl_ros_control/kdl_robot_test[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/kdl_robot_vision_control.dir/src/kdl_control.cpp.o[0m
+[ 57%] Built target kdl_robot_test
+[ 64%] [32mBuilding CXX object CMakeFiles/kdl_robot_vision_control.dir/src/kdl_planner.cpp.o[0m
+[35m[1mScanning dependencies of target kdl_ros_control[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/kdl_ros_control.dir/src/kdl_robot.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/kdl_ros_control.dir/src/kdl_control.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/kdl_ros_control.dir/src/kdl_planner.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable /home/ludovica/RL/homework3/devel/.private/kdl_ros_control/lib/kdl_ros_control/kdl_robot_vision_control[0m
+[ 92%] Built target kdl_robot_vision_control
+[100%] [32m[1mLinking CXX shared library /home/ludovica/RL/homework3/devel/.private/kdl_ros_control/lib/libkdl_ros_control.so[0m
+[100%] Built target kdl_ros_control

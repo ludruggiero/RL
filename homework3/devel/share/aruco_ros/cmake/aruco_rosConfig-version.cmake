@@ -1,0 +1,1 @@
+/home/ludovica/RL/homework3/devel/.private/aruco_ros/share/aruco_ros/cmake/aruco_rosConfig-version.cmake
