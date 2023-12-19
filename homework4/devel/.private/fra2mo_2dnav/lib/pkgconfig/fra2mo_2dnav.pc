@@ -1,0 +1,8 @@
+prefix=/home/ludovica/RL/homework4/devel/.private/fra2mo_2dnav
+
+Name: fra2mo_2dnav
+Description: Description of fra2mo_2dnav
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

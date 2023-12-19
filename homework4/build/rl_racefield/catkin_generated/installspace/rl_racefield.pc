@@ -1,0 +1,8 @@
+prefix=/home/ludovica/RL/homework4/install
+
+Name: rl_racefield
+Description: Description of rl_racefield
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

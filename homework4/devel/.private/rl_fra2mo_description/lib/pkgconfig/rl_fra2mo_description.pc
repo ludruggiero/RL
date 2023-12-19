@@ -1,0 +1,8 @@
+prefix=/home/ludovica/RL/homework4/devel/.private/rl_fra2mo_description
+
+Name: rl_fra2mo_description
+Description: Description of rl_fra2mo_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

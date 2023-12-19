@@ -1,0 +1,1 @@
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/share/common-lisp/ros/aruco_msgs/msg/_package.lisp

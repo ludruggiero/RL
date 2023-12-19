@@ -1,0 +1,5 @@
+rl_racefield
+/home/ludovica/RL/homework4/devel/.private/rl_racefield/cmake.lock /home/ludovica/RL/homework4/devel/./cmake.lock
+/home/ludovica/RL/homework4/devel/.private/rl_racefield/share/rl_racefield/cmake/rl_racefieldConfig-version.cmake /home/ludovica/RL/homework4/devel/share/rl_racefield/cmake/rl_racefieldConfig-version.cmake
+/home/ludovica/RL/homework4/devel/.private/rl_racefield/share/rl_racefield/cmake/rl_racefieldConfig.cmake /home/ludovica/RL/homework4/devel/share/rl_racefield/cmake/rl_racefieldConfig.cmake
+/home/ludovica/RL/homework4/devel/.private/rl_racefield/lib/pkgconfig/rl_racefield.pc /home/ludovica/RL/homework4/devel/lib/pkgconfig/rl_racefield.pc

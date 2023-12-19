@@ -1,0 +1,6 @@
+aruco_ros/aruco
+/home/ludovica/RL/homework4/devel/.private/aruco/cmake.lock /home/ludovica/RL/homework4/devel/./cmake.lock
+/home/ludovica/RL/homework4/devel/.private/aruco/share/aruco/cmake/arucoConfig-version.cmake /home/ludovica/RL/homework4/devel/share/aruco/cmake/arucoConfig-version.cmake
+/home/ludovica/RL/homework4/devel/.private/aruco/share/aruco/cmake/arucoConfig.cmake /home/ludovica/RL/homework4/devel/share/aruco/cmake/arucoConfig.cmake
+/home/ludovica/RL/homework4/devel/.private/aruco/lib/libaruco.so /home/ludovica/RL/homework4/devel/lib/libaruco.so
+/home/ludovica/RL/homework4/devel/.private/aruco/lib/pkgconfig/aruco.pc /home/ludovica/RL/homework4/devel/lib/pkgconfig/aruco.pc

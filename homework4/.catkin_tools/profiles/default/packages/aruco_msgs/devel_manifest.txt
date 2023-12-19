@@ -1,0 +1,26 @@
+aruco_ros/aruco_msgs
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/cmake.lock /home/ludovica/RL/homework4/devel/./cmake.lock
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/share/common-lisp/ros/aruco_msgs/msg/aruco_msgs-msg.asd /home/ludovica/RL/homework4/devel/share/common-lisp/ros/aruco_msgs/msg/aruco_msgs-msg.asd
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/share/common-lisp/ros/aruco_msgs/msg/_package_Marker.lisp /home/ludovica/RL/homework4/devel/share/common-lisp/ros/aruco_msgs/msg/_package_Marker.lisp
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/share/common-lisp/ros/aruco_msgs/msg/_package.lisp /home/ludovica/RL/homework4/devel/share/common-lisp/ros/aruco_msgs/msg/_package.lisp
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/share/common-lisp/ros/aruco_msgs/msg/MarkerArray.lisp /home/ludovica/RL/homework4/devel/share/common-lisp/ros/aruco_msgs/msg/MarkerArray.lisp
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/share/common-lisp/ros/aruco_msgs/msg/_package_MarkerArray.lisp /home/ludovica/RL/homework4/devel/share/common-lisp/ros/aruco_msgs/msg/_package_MarkerArray.lisp
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/share/common-lisp/ros/aruco_msgs/msg/Marker.lisp /home/ludovica/RL/homework4/devel/share/common-lisp/ros/aruco_msgs/msg/Marker.lisp
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/share/roseus/ros/aruco_msgs/manifest.l /home/ludovica/RL/homework4/devel/share/roseus/ros/aruco_msgs/manifest.l
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/share/roseus/ros/aruco_msgs/msg/Marker.l /home/ludovica/RL/homework4/devel/share/roseus/ros/aruco_msgs/msg/Marker.l
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/share/roseus/ros/aruco_msgs/msg/MarkerArray.l /home/ludovica/RL/homework4/devel/share/roseus/ros/aruco_msgs/msg/MarkerArray.l
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/share/gennodejs/ros/aruco_msgs/_index.js /home/ludovica/RL/homework4/devel/share/gennodejs/ros/aruco_msgs/_index.js
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/share/gennodejs/ros/aruco_msgs/msg/MarkerArray.js /home/ludovica/RL/homework4/devel/share/gennodejs/ros/aruco_msgs/msg/MarkerArray.js
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/share/gennodejs/ros/aruco_msgs/msg/Marker.js /home/ludovica/RL/homework4/devel/share/gennodejs/ros/aruco_msgs/msg/Marker.js
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/share/gennodejs/ros/aruco_msgs/msg/_index.js /home/ludovica/RL/homework4/devel/share/gennodejs/ros/aruco_msgs/msg/_index.js
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/share/aruco_msgs/cmake/aruco_msgsConfig-version.cmake /home/ludovica/RL/homework4/devel/share/aruco_msgs/cmake/aruco_msgsConfig-version.cmake
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs-msg-paths.cmake /home/ludovica/RL/homework4/devel/share/aruco_msgs/cmake/aruco_msgs-msg-paths.cmake
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs-msg-extras.cmake /home/ludovica/RL/homework4/devel/share/aruco_msgs/cmake/aruco_msgs-msg-extras.cmake
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/share/aruco_msgs/cmake/aruco_msgsConfig.cmake /home/ludovica/RL/homework4/devel/share/aruco_msgs/cmake/aruco_msgsConfig.cmake
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/lib/pkgconfig/aruco_msgs.pc /home/ludovica/RL/homework4/devel/lib/pkgconfig/aruco_msgs.pc
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/lib/python3/dist-packages/aruco_msgs/__init__.py /home/ludovica/RL/homework4/devel/lib/python3/dist-packages/aruco_msgs/__init__.py
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/lib/python3/dist-packages/aruco_msgs/msg/__init__.py /home/ludovica/RL/homework4/devel/lib/python3/dist-packages/aruco_msgs/msg/__init__.py
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/lib/python3/dist-packages/aruco_msgs/msg/_Marker.py /home/ludovica/RL/homework4/devel/lib/python3/dist-packages/aruco_msgs/msg/_Marker.py
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/lib/python3/dist-packages/aruco_msgs/msg/_MarkerArray.py /home/ludovica/RL/homework4/devel/lib/python3/dist-packages/aruco_msgs/msg/_MarkerArray.py
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/include/aruco_msgs/MarkerArray.h /home/ludovica/RL/homework4/devel/include/aruco_msgs/MarkerArray.h
+/home/ludovica/RL/homework4/devel/.private/aruco_msgs/include/aruco_msgs/Marker.h /home/ludovica/RL/homework4/devel/include/aruco_msgs/Marker.h

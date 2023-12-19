@@ -1,0 +1,7 @@
+fra2mo_2dnav
+/home/ludovica/RL/homework4/devel/.private/fra2mo_2dnav/cmake.lock /home/ludovica/RL/homework4/devel/./cmake.lock
+/home/ludovica/RL/homework4/devel/.private/fra2mo_2dnav/share/fra2mo_2dnav/cmake/fra2mo_2dnavConfig-version.cmake /home/ludovica/RL/homework4/devel/share/fra2mo_2dnav/cmake/fra2mo_2dnavConfig-version.cmake
+/home/ludovica/RL/homework4/devel/.private/fra2mo_2dnav/share/fra2mo_2dnav/cmake/fra2mo_2dnavConfig.cmake /home/ludovica/RL/homework4/devel/share/fra2mo_2dnav/cmake/fra2mo_2dnavConfig.cmake
+/home/ludovica/RL/homework4/devel/.private/fra2mo_2dnav/lib/fra2mo_2dnav/single_goal /home/ludovica/RL/homework4/devel/lib/fra2mo_2dnav/single_goal
+/home/ludovica/RL/homework4/devel/.private/fra2mo_2dnav/lib/fra2mo_2dnav/tf_nav /home/ludovica/RL/homework4/devel/lib/fra2mo_2dnav/tf_nav
+/home/ludovica/RL/homework4/devel/.private/fra2mo_2dnav/lib/pkgconfig/fra2mo_2dnav.pc /home/ludovica/RL/homework4/devel/lib/pkgconfig/fra2mo_2dnav.pc

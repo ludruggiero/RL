@@ -1,0 +1,1 @@
+/home/ludovica/RL/homework4/devel/.private/aruco/lib/pkgconfig/aruco.pc
