@@ -50,7 +50,7 @@ void jointStateCallback(const sensor_msgs::JointState & msg)
 
 KDLPlanner chooseTrajectory(int trajFlag, Eigen::Vector3d init_position, Eigen::Vector3d end_position, double traj_duration, double acc_duration, 
                     double t, double init_time_slot, double traj_radius) {
-          // CHECK WHY IT DOESN'T WORK
+          
     switch(trajFlag) {
         case 1:
             return KDLPlanner(traj_duration, acc_duration, init_position, end_position);  
