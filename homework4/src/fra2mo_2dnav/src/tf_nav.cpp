@@ -72,7 +72,7 @@ void TF_NAV::tf_listener_fun() {
         } catch ( tf::TransformException &ex ) {
             ROS_ERROR("%s", ex.what());
             r.sleep();
-            // if it fails, skipt to the next iteration
+            // if it fails, skip to the next iteration
             continue;
         }
 
