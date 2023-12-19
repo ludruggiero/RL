@@ -48,32 +48,32 @@ public:
     /*     CONSTRUCTORS     */
 
     //! Constructor to compute linear trajectory with trapezoidal velocity profile
-    //! @param _trajDuration duration of the trajectory
-    //! @param _accDuration acceleration
-    //! @param _trajInit starting point
-    //! @param _trajEnd ending point
+    //!  _trajDuration duration of the trajectory
+    //!  _accDuration acceleration
+    //!  _trajInit starting point
+    //!  _trajEnd ending point
     KDLPlanner(double _trajDuration, double _accDuration,
                Eigen::Vector3d _trajInit, Eigen::Vector3d _trajEnd);
 
     //! Constructor to compute circular trajectory with trapezoidal velocity profile
-    //! @param _trajDuration duration of the trajectory
-    //! @param _accDuration acceleration
-    //! @param _trajInit starting point
-    //! @param _trajRadius radius of the circumference
+    //!  _trajDuration duration of the trajectory
+    //!  _accDuration acceleration
+    //!  _trajInit starting point
+    //!  _trajRadius radius of the circumference
     KDLPlanner(double _trajDuration, double _accDuration,
                Eigen::Vector3d _trajInit, double _trajRadius);
 
     //! Constructor to compute linear trajectory with cubic polinomial profile
-    //! @param _trajDuration duration of the trajectory
-    //! @param _trajInit starting point
-    //! @param _trajEnd ending point
+    //!  _trajDuration duration of the trajectory
+    //!  _trajInit starting point
+    //!  _trajEnd ending point
     KDLPlanner(double _trajDuration,
                Eigen::Vector3d _trajInit, Eigen::Vector3d _trajEnd);
     
     //! Constructor to compute circular trajectory with cubic polinomial profile
-    //! @param _trajDuration duration of the trajectory
-    //! @param _trajInit starting point
-    //! @param _trajRadius radius of the circumference
+    //!  _trajDuration duration of the trajectory
+    //!  _trajInit starting point
+    //!  _trajRadius radius of the circumference
     KDLPlanner(double _trajDuration, 
         Eigen::Vector3d _trajInit, double _trajRadius);
 

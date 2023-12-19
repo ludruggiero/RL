@@ -218,6 +218,8 @@ trajectory_point KDLPlanner::compute_linear_trajectory(double time) {
     return traj;
 }
 
+
+// 
 curvilinearAbscissa KDLPlanner::trapezoidal_vel(double time) {
 
     curvilinearAbscissa abscissa;

@@ -6,7 +6,7 @@ KDLController::KDLController(KDLRobot &_robot)
 }
 
 /// Joint space inverse dynamics
-/// @return control torques
+/// return control torques
 Eigen::VectorXd KDLController::idCntr(KDL::JntArray &_qd,
                                       KDL::JntArray &_dqd,
                                       KDL::JntArray &_ddqd,
@@ -28,7 +28,7 @@ Eigen::VectorXd KDLController::idCntr(KDL::JntArray &_qd,
 }
 
 /// Cartesian space inverse dynamics
-/// @return control torques
+/// return control torques
 Eigen::VectorXd KDLController::idCntr(KDL::Frame &_desPos,
                                       KDL::Twist &_desVel,
                                       KDL::Twist &_desAcc,
