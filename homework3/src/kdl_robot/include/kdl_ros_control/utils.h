@@ -182,6 +182,7 @@ pseudoinverse(const MatT &mat, typename MatT::Scalar tolerance = typename MatT::
     return svd.matrixV() * singularValuesInv * svd.matrixU().adjoint();
 }
 
+ // angle and axis error
 inline Eigen::Matrix<double,3,1> computeOrientationError(const Eigen::Matrix<double,3,3> &_R_d, 
                                                          const Eigen::Matrix<double,3,3> &_R_e)
 {

@@ -214,7 +214,7 @@ int main(int argc, char **argv)
             KDL::Frame T_desired = base_T_object*T_offset; 
             
             
-            // look at point: compute rotation error from angle/axis
+            // 2b look at point: compute rotation error from angle/axis
             Eigen::Matrix<double,3,1> aruco_pos_n = toEigen(cam_T_object.p); //(aruco_pose[0],aruco_pose[1],aruco_pose[2]);
             aruco_pos_n.normalize();    // this is the unit vector describing position of marker wrt camera (s in the pdf)
 
@@ -269,7 +269,7 @@ int main(int argc, char **argv)
 
 
 
-                // PAPER IMPLEMENTATION OF NULL SPACE PROJECTOR
+                // PAPER IMPLEMENTATION OF NULL SPACE PROJECTOR- not working 
                 // Eigen::Matrix<double,6,1> n1,n2,n3,n4;
                 // Eigen::Vector3d ex, ey, s;
                 // s = aruco_pos_n;
@@ -295,14 +295,65 @@ int main(int argc, char **argv)
                 // lambda[3] = 0*0.1*std::sin(t);
                 // lambda[4] = 1*0.1*std::sin(t);
 
-                Eigen::MatrixXd J_dagger = 
-                        J_cam.data.completeOrthogonalDecomposition().pseudoInverse();
-                dqd.data = 2 * LJ_pinv * sd /*+ J_dagger*N*lambda*/ + 
-                        0.5*Null_projector * (qdi - toEigen(jnt_pos));
+                // Eigen::MatrixXd J_dagger = 
+                //         J_cam.data.completeOrthogonalDecomposition().pseudoInverse();
+                // dqd.data = 2 * LJ_pinv * sd /*+ J_dagger*N*lambda*/ + 
+                //         0.5*Null_projector * (qdi - toEigen(jnt_pos));
+
+
+
+
+
+                 // IMPLEMENTATION FROM A PREVIOUS COMMIT
+                Eigen::Matrix<double,6,1> n1,n2,n3,n4;
+                Eigen::Vector3d ex, ey, s;
+                s = aruco_pos_n;
+                double d = cam_T_object.p.Norm();
+                Eigen::Matrix<double,3,3> Ps = Eigen::Matrix<double,3,3>::Identity() -
+                                               (s * s.transpose());
+                // unit vectors as defined in the paper
+                ex << 1,0,0;
+                ey << 0,1,0;
+
+                // null matrix definition
+                n1.topRows(3) = s;
+                n1.bottomRows(3) = Eigen::Vector3d::Zero();
+
+                n2.topRows(3) = Eigen::Vector3d::Zero();
+                n2.bottomRows(3) = s;
+
+                n3.topRows(3) = -skew(s)*ey;
+                n3.bottomRows(3) = -Ps*ey;
+
+                n4.topRows(3) = skew(s)*ex;
+                n4.bottomRows(3) = Ps*ex;
+
+
+                double lambda1, lambda2, lambda3, lambda4, roll, pitch, yaw;
+                robot.getEEFrame().M.GetRPY(roll,pitch,yaw);
+                std::cout << "\nroll: " << roll << "\n\n";
+                // pseudo velocities
+                lambda1 = 0*0.1*std::sin(t);
+                lambda2 = 0*0.1*std::sin(t);
+                lambda3 = 0*0.1*std::sin(t);
+                lambda4 = 1*0.1*std::sin(t);
+                Eigen::Vector4d lambda;
+                lambda << lambda1, lambda2, lambda3, lambda4;
+                Eigen::Matrix<double,6,4> N;
+                N.col(0) = n1;
+                N.col(1) = n2;
+                N.col(2) = n3;
+                N.col(3) = n4;
+
+
+                Eigen::MatrixXd J_dagger = J_cam.data.completeOrthogonalDecomposition().pseudoInverse();
+                dqd.data = 2 * LJ_pinv * sd + J_dagger*N*lambda + 0.5*Null_projector * (qdi - toEigen(jnt_pos));
+
 
                 s_msg.x = aruco_pos_n(0, 0);
                 s_msg.y = aruco_pos_n(1, 0);
                 s_msg.z = aruco_pos_n(2, 0);
+
             }
             // debug
             // std::cout << "x_tilde: " << std::endl << x_tilde << std::endl;
