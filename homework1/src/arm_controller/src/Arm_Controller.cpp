@@ -51,7 +51,7 @@ void Arm_Controller::start_controller(){
         std_msgs::Float64 cmd_messages[4];
         // the loop will iterate at a rate of 10 times per second.
         ros::Rate loopRate(10);
-        ros::spinOnce(); // calling the callback function 
+        ros::spinOnce(); // updates joint states
         double frequency = 0.05; 
         double amplitude = M_PI / 2.0; // +/- pi/2
         

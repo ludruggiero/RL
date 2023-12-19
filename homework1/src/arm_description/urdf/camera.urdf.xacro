@@ -5,6 +5,8 @@
 
         
     <xacro:macro name="camera_sensor" params="xyz rpy parent robot_name">
+
+    <!-- camera joint and link added  -->
         <joint name="camera_sensor_joint" type="fixed">
             <axis xyz="0 0 1" />
             <origin xyz="${xyz}" rpy="${rpy}"/>
@@ -34,6 +36,7 @@
         
         
         
+       <!-- gazebo camera  sensor and plugin --> 
         <gazebo reference="camera_link">
             <sensor type="camera" name="camera">
                 <update_rate>30.0</update_rate>
