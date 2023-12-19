@@ -16,7 +16,7 @@ This repository contains the homework code developed during the Robotics Lab cou
 
 </div>
 
-[pdf1]:./main/reports/RL2023_hw1.pdf
-[pdf2]:./blob/main/reports/RL2023_hw2.pdf
-[pdf3]:./blob/main/reports/RL2023_hw3.pdf
-[pdf4]:./blob/main/reports/RL2023_hw4.pdf
+[pdf1]:https://github.com/ludruggiero/RL/blob/main/reports/RL2023_hw1.pdf
+[pdf2]:https://github.com/ludruggiero/RL/blob/main/reports/RL2023_hw2.pdf
+[pdf3]::https//github.com/ludruggiero/RL/blob/main/reports/RL2023_hw3.pdf
+[pdf4]:https//github.com/ludruggiero/RL/blob/main/reports/RL2023_hw4.pdf
