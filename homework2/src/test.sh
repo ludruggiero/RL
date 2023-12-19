@@ -1,1 +1,0 @@
-rosrun kdl_ros_control kdl_robot_test

@@ -1,1 +1,0 @@
-roslaunch iiwa_gazebo iiwa_gazebo_effort.launch
