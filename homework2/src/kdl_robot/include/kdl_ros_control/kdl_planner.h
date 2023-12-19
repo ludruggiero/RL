@@ -16,13 +16,13 @@
 #include "Eigen/Dense"
 #include <cmath>
 
-struct trajectory_point{
+struct trajectory_point {
   Eigen::Vector3d pos = Eigen::Vector3d::Zero();
   Eigen::Vector3d vel = Eigen::Vector3d::Zero();
   Eigen::Vector3d acc = Eigen::Vector3d::Zero();
 };
 
-struct curvilinearAbscissa{
+struct curvilinearAbscissa {
     double s;
     double sdot;
     double sddot;
@@ -45,36 +45,48 @@ public:
 
     KDL::Trajectory* getTrajectory();
 
-    ////////////////////////////////// CONSTRUCTORS
-    // constructor to compute linear trajectory with trapezoidal velocity profile
+    /*     CONSTRUCTORS     */
+
+    //! Constructor to compute linear trajectory with trapezoidal velocity profile
+    //! @param _trajDuration duration of the trajectory
+    //! @param _accDuration acceleration
+    //! @param _trajInit starting point
+    //! @param _trajEnd ending point
     KDLPlanner(double _trajDuration, double _accDuration,
                Eigen::Vector3d _trajInit, Eigen::Vector3d _trajEnd);
 
-    // constructor to compute circular trajectory with trapezoidal velocity profile
+    //! Constructor to compute circular trajectory with trapezoidal velocity profile
+    //! @param _trajDuration duration of the trajectory
+    //! @param _accDuration acceleration
+    //! @param _trajInit starting point
+    //! @param _trajRadius radius of the circumference
     KDLPlanner(double _trajDuration, double _accDuration,
                Eigen::Vector3d _trajInit, double _trajRadius);
 
-    // constructor to compute linear trajectory with cubic polinomial profile
+    //! Constructor to compute linear trajectory with cubic polinomial profile
+    //! @param _trajDuration duration of the trajectory
+    //! @param _trajInit starting point
+    //! @param _trajEnd ending point
     KDLPlanner(double _trajDuration,
                Eigen::Vector3d _trajInit, Eigen::Vector3d _trajEnd);
     
-    // constructor to compute circular trajectory with cubic polinomial profile
+    //! Constructor to compute circular trajectory with cubic polinomial profile
+    //! @param _trajDuration duration of the trajectory
+    //! @param _trajInit starting point
+    //! @param _trajRadius radius of the circumference
     KDLPlanner(double _trajDuration, 
         Eigen::Vector3d _trajInit, double _trajRadius);
-    //////////////////////////////////////////
 
-    // trajectory_point compute_trajectory(double time);
+
     trajectory_point compute_trajectory(double time);
 
 
 private:
 
-
-
     KDL::Path_RoundedComposite* path_;
     KDL::Path_Circle* path_circle_;
-	KDL::VelocityProfile* velpref_;
-	KDL::Trajectory* traject_;
+    KDL::VelocityProfile* velpref_;
+    KDL::Trajectory* traject_;
 
     //////////////////////////////////
     double trajDuration_, accDuration_, trajRadius_;
@@ -83,9 +95,11 @@ private:
 
     trajectory_point compute_circle_trajectory(double time);
     trajectory_point compute_linear_trajectory(double time);
-    
+
+    // compute s in [0;1] and its derivatives
     curvilinearAbscissa trapezoidal_vel(double time);
     curvilinearAbscissa cubic_polinomial(double time);
+
 };
 
 #endif

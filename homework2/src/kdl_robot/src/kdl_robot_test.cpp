@@ -17,16 +17,13 @@ std::vector<double> jnt_pos(7,0.0), jnt_vel(7,0.0), obj_pos(6,0.0),  obj_vel(6,0
 bool robot_state_available = false;
 
 // Functions
-KDLRobot createRobot(std::string robot_string)
-{
+KDLRobot createRobot(std::string robot_string) {
     KDL::Tree robot_tree;
     urdf::Model my_model;
-    if (!my_model.initFile(robot_string))
-    {
+    if (!my_model.initFile(robot_string)) {
         printf("Failed to parse urdf robot model \n");
     }
-    if (!kdl_parser::treeFromUrdfModel(my_model, robot_tree))
-    {
+    if (!kdl_parser::treeFromUrdfModel(my_model, robot_tree)) {
         printf("Failed to construct kdl tree \n");
     }
     
@@ -34,13 +31,11 @@ KDLRobot createRobot(std::string robot_string)
     return robot;
 }
 
-void jointStateCallback(const sensor_msgs::JointState & msg)
-{
+void jointStateCallback(const sensor_msgs::JointState & msg) {
     robot_state_available = true;
     jnt_pos.clear();
     jnt_vel.clear();
-    for (int i = 0; i < msg.position.size(); i++)
-    {
+    for (int i = 0; i < msg.position.size(); i++) {
         jnt_pos.push_back(msg.position[i]);
         jnt_vel.push_back(msg.velocity[i]);
     }
@@ -48,8 +43,7 @@ void jointStateCallback(const sensor_msgs::JointState & msg)
 
 KDLPlanner chooseTrajectory(int trajFlag, Eigen::Vector3d init_position, Eigen::Vector3d end_position, double traj_duration, double acc_duration, 
                     double t, double init_time_slot, double traj_radius) {
-          // CHECK WHY IT DOESN'T WORK
-    switch(trajFlag) {
+    switch (trajFlag) {
         case 1:
             return KDLPlanner(traj_duration, acc_duration, init_position, end_position);  
             break; 
@@ -69,10 +63,8 @@ KDLPlanner chooseTrajectory(int trajFlag, Eigen::Vector3d init_position, Eigen::
                     }
 
 // Main
-int main(int argc, char **argv)
-{
-    if (argc < 2)
-    {
+int main(int argc, char **argv) {
+    if (argc < 2) {
         printf("Please, provide a path to a URDF file...\n");
         return 0;
     }
@@ -102,7 +94,7 @@ int main(int argc, char **argv)
     ros::ServiceClient robot_set_state_srv = n.serviceClient<gazebo_msgs::SetModelConfiguration>("/gazebo/set_model_configuration");
     ros::ServiceClient pauseGazebo = n.serviceClient<std_srvs::Empty>("/gazebo/pause_physics");
 
-    // Set robot state
+    // Set robot initial state
     gazebo_msgs::SetModelConfiguration robot_init_config;
     robot_init_config.request.model_name = "iiwa";
     robot_init_config.request.urdf_param_name = "robot_description";
@@ -120,10 +112,12 @@ int main(int argc, char **argv)
     robot_init_config.request.joint_positions.push_back(1.57);
     robot_init_config.request.joint_positions.push_back(-1.57);
     robot_init_config.request.joint_positions.push_back(-0.37);
-    if(robot_set_state_srv.call(robot_init_config))
-        ROS_INFO("Robot state set.");
-    else
-        ROS_INFO("Failed to set robot state.");
+
+    if(robot_set_state_srv.call(robot_init_config)) {
+      ROS_INFO("Robot state set.");
+    } else {
+      ROS_INFO("Failed to set robot state.");
+    }
 
     // Messages
     std_msgs::Float64 tau1_msg, tau2_msg, tau3_msg, tau4_msg, tau5_msg, tau6_msg, tau7_msg, error_msg;
@@ -138,17 +132,16 @@ int main(int argc, char **argv)
     std::cin >> trajFlag;
 
     // Wait for robot and object state
-    while (!(robot_state_available))
-    {
+    while (!(robot_state_available)) {
         ROS_INFO_STREAM_ONCE("Robot/object state not available yet.");
         ROS_INFO_STREAM_ONCE("Please start gazebo simulation.");
-        if (!(robot_set_state_srv.call(robot_init_config)))
-            ROS_INFO("Failed to set robot state.");            
-        
+        if (!(robot_set_state_srv.call(robot_init_config))) {
+          ROS_INFO("Failed to set robot state.");
+        }
         ros::spinOnce();
     }
 
-    // Create robot
+    // Create robot (passing urdf path provided as argument)
     KDLRobot robot = createRobot(argv[1]);
     robot.update(jnt_pos, jnt_vel);
     int nrJnts = robot.getNrJnts();
@@ -208,20 +201,19 @@ int main(int argc, char **argv)
     trajectory_point p = planner.compute_trajectory(t);
 
     // Gains
-    double Kp = 100, Kd = sqrt(Kp);
+    double Kp = 100, Kd = 2*sqrt(Kp);
 
     // Retrieve initial simulation time
     ros::Time begin = ros::Time::now();
     ROS_INFO_STREAM_ONCE("Starting control loop ...");
 
     // Init trajectory
-    KDL::Frame des_pose = KDL::Frame::Identity(); KDL::Twist des_cart_vel = KDL::Twist::Zero(), des_cart_acc = KDL::Twist::Zero();
+    KDL::Frame des_pose = KDL::Frame::Identity();
+    KDL::Twist des_cart_vel = KDL::Twist::Zero(), des_cart_acc = KDL::Twist::Zero();
     des_pose.M = robot.getEEFrame().M;
 
-    while ((ros::Time::now()-begin).toSec() < 2*traj_duration + init_time_slot)
-    {
-        if (robot_state_available)
-        {
+    while ((ros::Time::now()-begin).toSec() < 2*traj_duration + init_time_slot) {
+        if (robot_state_available) {
             // Update robot
             robot.update(jnt_pos, jnt_vel);
 
@@ -232,18 +224,13 @@ int main(int argc, char **argv)
             // Extract desired pose
             des_cart_vel = KDL::Twist::Zero();
             des_cart_acc = KDL::Twist::Zero();
-            if (t <= init_time_slot) // wait a second
-            {
-                p = planner.compute_trajectory(0.0); 
-            }
-            else if(t > init_time_slot && t <= traj_duration + init_time_slot)
-            {
-                p = planner.compute_trajectory(t-init_time_slot); 
+            if (t <= init_time_slot) { // wait a second
+                p = planner.compute_trajectory(0.0);
+            } else if (t > init_time_slot && t <= traj_duration + init_time_slot) {
+                p = planner.compute_trajectory(t-init_time_slot);
                 des_cart_vel = KDL::Twist(KDL::Vector(p.vel[0], p.vel[1], p.vel[2]),KDL::Vector::Zero());
                 des_cart_acc = KDL::Twist(KDL::Vector(p.acc[0], p.acc[1], p.acc[2]),KDL::Vector::Zero());
-            }
-            else
-            {
+            } else {
                 ROS_INFO_STREAM_ONCE("trajectory terminated");
                 break;
             }
@@ -274,7 +261,7 @@ int main(int argc, char **argv)
             double Ko = 400;
             // Cartesian space inverse dynamics control
             // tau = controller_.idCntr(des_pose, des_cart_vel, des_cart_acc,
-            //                          Kp, Ko, 2*sqrt(Kp), 2*sqrt(Ko),error);
+            //                          Kp, Ko, 2*sqrt(Kp), 2*sqrt(Ko), error);
 
             // Set torques
             tau1_msg.data = tau[0];
@@ -300,10 +287,11 @@ int main(int argc, char **argv)
             loop_rate.sleep();
         }
     }
-    if(pauseGazebo.call(pauseSrv))
+    if (pauseGazebo.call(pauseSrv)) {
         ROS_INFO("Simulation paused.");
-    else
+    } else {
         ROS_INFO("Failed to pause simulation.");
+    }
 
     return 0;
 }

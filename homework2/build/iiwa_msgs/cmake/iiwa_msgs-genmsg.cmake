@@ -24,7 +24,7 @@ add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianEulerPose.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianEulerPose.msg" "std_msgs/Header:iiwa_msgs/CartesianQuantity"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianEulerPose.msg" "iiwa_msgs/CartesianQuantity:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianImpedanceControlMode.msg" NAME_WE)
@@ -39,7 +39,7 @@ add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg" "geometry_msgs/Quaternion:geometry_msgs/Pose:geometry_msgs/PoseStamped:std_msgs/Header:geometry_msgs/Point:iiwa_msgs/RedundancyInformation"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg" "iiwa_msgs/RedundancyInformation:geometry_msgs/Quaternion:std_msgs/Header:geometry_msgs/Point:geometry_msgs/PoseStamped:geometry_msgs/Pose"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg" NAME_WE)
@@ -49,12 +49,12 @@ add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianVelocity.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianVelocity.msg" "std_msgs/Header:iiwa_msgs/CartesianQuantity"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianVelocity.msg" "iiwa_msgs/CartesianQuantity:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianWrench.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianWrench.msg" "std_msgs/Header:geometry_msgs/Wrench:geometry_msgs/Vector3"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianWrench.msg" "geometry_msgs/Vector3:std_msgs/Header:geometry_msgs/Wrench"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/ControlMode.msg" NAME_WE)
@@ -74,7 +74,7 @@ add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointDamping.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointDamping.msg" "std_msgs/Header:iiwa_msgs/JointQuantity"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointDamping.msg" "iiwa_msgs/JointQuantity:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointImpedanceControlMode.msg" NAME_WE)
@@ -84,12 +84,12 @@ add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg" "std_msgs/Header:iiwa_msgs/JointQuantity"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg" "iiwa_msgs/JointQuantity:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPositionVelocity.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPositionVelocity.msg" "std_msgs/Header:iiwa_msgs/JointQuantity"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPositionVelocity.msg" "iiwa_msgs/JointQuantity:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg" NAME_WE)
@@ -99,17 +99,17 @@ add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointStiffness.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointStiffness.msg" "std_msgs/Header:iiwa_msgs/JointQuantity"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointStiffness.msg" "iiwa_msgs/JointQuantity:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointTorque.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointTorque.msg" "std_msgs/Header:iiwa_msgs/JointQuantity"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointTorque.msg" "iiwa_msgs/JointQuantity:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointVelocity.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointVelocity.msg" "std_msgs/Header:iiwa_msgs/JointQuantity"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointVelocity.msg" "iiwa_msgs/JointQuantity:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg" NAME_WE)
@@ -124,37 +124,37 @@ add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg" "geometry_msgs/Pose:geometry_msgs/Quaternion:geometry_msgs/PoseStamped:iiwa_msgs/CartesianPose:iiwa_msgs/SplineSegment:std_msgs/Header:geometry_msgs/Point:iiwa_msgs/RedundancyInformation"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg" "iiwa_msgs/RedundancyInformation:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point:iiwa_msgs/CartesianPose:iiwa_msgs/SplineSegment:geometry_msgs/PoseStamped:geometry_msgs/Pose"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg" "geometry_msgs/Pose:geometry_msgs/Quaternion:geometry_msgs/PoseStamped:iiwa_msgs/CartesianPose:std_msgs/Header:geometry_msgs/Point:iiwa_msgs/RedundancyInformation"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg" "iiwa_msgs/RedundancyInformation:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point:iiwa_msgs/CartesianPose:geometry_msgs/PoseStamped:geometry_msgs/Pose"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineAction.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineAction.msg" "geometry_msgs/Pose:geometry_msgs/Quaternion:iiwa_msgs/Spline:geometry_msgs/Point:iiwa_msgs/MoveAlongSplineActionFeedback:iiwa_msgs/MoveAlongSplineGoal:actionlib_msgs/GoalID:geometry_msgs/PoseStamped:iiwa_msgs/MoveAlongSplineActionResult:actionlib_msgs/GoalStatus:iiwa_msgs/MoveAlongSplineActionGoal:iiwa_msgs/SplineSegment:std_msgs/Header:iiwa_msgs/CartesianPose:iiwa_msgs/MoveAlongSplineFeedback:iiwa_msgs/RedundancyInformation:iiwa_msgs/MoveAlongSplineResult"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineAction.msg" "actionlib_msgs/GoalID:iiwa_msgs/RedundancyInformation:std_msgs/Header:geometry_msgs/Quaternion:iiwa_msgs/MoveAlongSplineActionFeedback:geometry_msgs/Point:iiwa_msgs/MoveAlongSplineResult:iiwa_msgs/MoveAlongSplineActionGoal:iiwa_msgs/CartesianPose:geometry_msgs/Pose:iiwa_msgs/SplineSegment:iiwa_msgs/MoveAlongSplineFeedback:iiwa_msgs/MoveAlongSplineGoal:iiwa_msgs/MoveAlongSplineActionResult:actionlib_msgs/GoalStatus:geometry_msgs/PoseStamped:iiwa_msgs/Spline"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg" "geometry_msgs/Pose:geometry_msgs/Quaternion:iiwa_msgs/Spline:iiwa_msgs/MoveAlongSplineGoal:actionlib_msgs/GoalID:geometry_msgs/PoseStamped:iiwa_msgs/CartesianPose:iiwa_msgs/SplineSegment:std_msgs/Header:geometry_msgs/Point:iiwa_msgs/RedundancyInformation"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg" "actionlib_msgs/GoalID:iiwa_msgs/RedundancyInformation:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point:iiwa_msgs/CartesianPose:geometry_msgs/Pose:iiwa_msgs/SplineSegment:iiwa_msgs/MoveAlongSplineGoal:geometry_msgs/PoseStamped:iiwa_msgs/Spline"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg" "std_msgs/Header:actionlib_msgs/GoalStatus:iiwa_msgs/MoveAlongSplineResult:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:iiwa_msgs/MoveAlongSplineResult:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg" "std_msgs/Header:actionlib_msgs/GoalStatus:iiwa_msgs/MoveAlongSplineFeedback:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:iiwa_msgs/MoveAlongSplineFeedback:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg" "geometry_msgs/Pose:geometry_msgs/Quaternion:iiwa_msgs/Spline:geometry_msgs/PoseStamped:iiwa_msgs/CartesianPose:iiwa_msgs/SplineSegment:std_msgs/Header:geometry_msgs/Point:iiwa_msgs/RedundancyInformation"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg" "iiwa_msgs/RedundancyInformation:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point:iiwa_msgs/CartesianPose:geometry_msgs/Pose:iiwa_msgs/SplineSegment:geometry_msgs/PoseStamped:iiwa_msgs/Spline"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg" NAME_WE)
@@ -169,27 +169,27 @@ add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseAction.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseAction.msg" "geometry_msgs/Pose:geometry_msgs/Quaternion:iiwa_msgs/MoveToCartesianPoseActionResult:iiwa_msgs/MoveToCartesianPoseActionGoal:iiwa_msgs/MoveToCartesianPoseResult:actionlib_msgs/GoalID:geometry_msgs/PoseStamped:actionlib_msgs/GoalStatus:iiwa_msgs/MoveToCartesianPoseActionFeedback:iiwa_msgs/MoveToCartesianPoseFeedback:iiwa_msgs/CartesianPose:iiwa_msgs/MoveToCartesianPoseGoal:std_msgs/Header:geometry_msgs/Point:iiwa_msgs/RedundancyInformation"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseAction.msg" "actionlib_msgs/GoalID:iiwa_msgs/MoveToCartesianPoseFeedback:iiwa_msgs/RedundancyInformation:std_msgs/Header:iiwa_msgs/MoveToCartesianPoseActionGoal:iiwa_msgs/MoveToCartesianPoseGoal:geometry_msgs/Quaternion:iiwa_msgs/MoveToCartesianPoseActionResult:geometry_msgs/Point:iiwa_msgs/CartesianPose:iiwa_msgs/MoveToCartesianPoseResult:iiwa_msgs/MoveToCartesianPoseActionFeedback:actionlib_msgs/GoalStatus:geometry_msgs/PoseStamped:geometry_msgs/Pose"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg" "geometry_msgs/Pose:geometry_msgs/Quaternion:actionlib_msgs/GoalID:geometry_msgs/PoseStamped:iiwa_msgs/CartesianPose:iiwa_msgs/MoveToCartesianPoseGoal:std_msgs/Header:geometry_msgs/Point:iiwa_msgs/RedundancyInformation"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg" "actionlib_msgs/GoalID:iiwa_msgs/RedundancyInformation:std_msgs/Header:iiwa_msgs/MoveToCartesianPoseGoal:geometry_msgs/Quaternion:geometry_msgs/Point:iiwa_msgs/CartesianPose:geometry_msgs/PoseStamped:geometry_msgs/Pose"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg" "std_msgs/Header:actionlib_msgs/GoalStatus:iiwa_msgs/MoveToCartesianPoseResult:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:iiwa_msgs/MoveToCartesianPoseResult:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg" "std_msgs/Header:actionlib_msgs/GoalStatus:iiwa_msgs/MoveToCartesianPoseFeedback:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:iiwa_msgs/MoveToCartesianPoseFeedback:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg" "geometry_msgs/Pose:geometry_msgs/Quaternion:geometry_msgs/PoseStamped:iiwa_msgs/CartesianPose:std_msgs/Header:geometry_msgs/Point:iiwa_msgs/RedundancyInformation"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg" "iiwa_msgs/RedundancyInformation:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point:iiwa_msgs/CartesianPose:geometry_msgs/PoseStamped:geometry_msgs/Pose"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg" NAME_WE)
@@ -204,27 +204,27 @@ add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionAction.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionAction.msg" "iiwa_msgs/JointPosition:actionlib_msgs/GoalID:iiwa_msgs/MoveToJointPositionActionFeedback:iiwa_msgs/MoveToJointPositionActionResult:iiwa_msgs/MoveToJointPositionGoal:iiwa_msgs/MoveToJointPositionResult:actionlib_msgs/GoalStatus:iiwa_msgs/JointQuantity:iiwa_msgs/MoveToJointPositionFeedback:std_msgs/Header:iiwa_msgs/MoveToJointPositionActionGoal"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionAction.msg" "actionlib_msgs/GoalID:iiwa_msgs/JointPosition:std_msgs/Header:iiwa_msgs/MoveToJointPositionResult:iiwa_msgs/MoveToJointPositionActionGoal:iiwa_msgs/MoveToJointPositionFeedback:iiwa_msgs/MoveToJointPositionActionFeedback:iiwa_msgs/MoveToJointPositionGoal:iiwa_msgs/JointQuantity:actionlib_msgs/GoalStatus:iiwa_msgs/MoveToJointPositionActionResult"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg" "iiwa_msgs/JointPosition:actionlib_msgs/GoalID:iiwa_msgs/MoveToJointPositionGoal:iiwa_msgs/JointQuantity:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg" "actionlib_msgs/GoalID:iiwa_msgs/JointPosition:std_msgs/Header:iiwa_msgs/MoveToJointPositionGoal:iiwa_msgs/JointQuantity"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg" "std_msgs/Header:actionlib_msgs/GoalStatus:iiwa_msgs/MoveToJointPositionResult:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg" "actionlib_msgs/GoalID:iiwa_msgs/MoveToJointPositionResult:actionlib_msgs/GoalStatus:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg" "std_msgs/Header:actionlib_msgs/GoalStatus:iiwa_msgs/MoveToJointPositionFeedback:actionlib_msgs/GoalID"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg" "actionlib_msgs/GoalID:actionlib_msgs/GoalStatus:iiwa_msgs/MoveToJointPositionFeedback:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg" "std_msgs/Header:iiwa_msgs/JointQuantity:iiwa_msgs/JointPosition"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg" "iiwa_msgs/JointPosition:iiwa_msgs/JointQuantity:std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg" NAME_WE)
@@ -239,7 +239,7 @@ add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/srv/ConfigureControlMode.srv" NAME_WE)
 add_custom_target(_iiwa_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/srv/ConfigureControlMode.srv" "iiwa_msgs/CartesianControlModeLimits:iiwa_msgs/CartesianQuantity:iiwa_msgs/DesiredForceControlMode:iiwa_msgs/JointQuantity:iiwa_msgs/JointImpedanceControlMode:iiwa_msgs/SinePatternControlMode:iiwa_msgs/CartesianImpedanceControlMode"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "iiwa_msgs" "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/srv/ConfigureControlMode.srv" "iiwa_msgs/CartesianQuantity:iiwa_msgs/JointImpedanceControlMode:iiwa_msgs/DesiredForceControlMode:iiwa_msgs/JointQuantity:iiwa_msgs/CartesianControlModeLimits:iiwa_msgs/CartesianImpedanceControlMode:iiwa_msgs/SinePatternControlMode"
 )
 
 get_filename_component(_filename "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/srv/SetEndpointFrame.srv" NAME_WE)
@@ -297,7 +297,7 @@ _generate_msg_cpp(iiwa_msgs
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianEulerPose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
@@ -315,7 +315,7 @@ _generate_msg_cpp(iiwa_msgs
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
@@ -327,13 +327,13 @@ _generate_msg_cpp(iiwa_msgs
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianVelocity.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianWrench.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Wrench.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Wrench.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
@@ -357,7 +357,7 @@ _generate_msg_cpp(iiwa_msgs
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointDamping.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
@@ -369,13 +369,13 @@ _generate_msg_cpp(iiwa_msgs
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPositionVelocity.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
@@ -387,19 +387,19 @@ _generate_msg_cpp(iiwa_msgs
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointStiffness.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointTorque.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointVelocity.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
@@ -417,43 +417,43 @@ _generate_msg_cpp(iiwa_msgs
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
@@ -471,31 +471,31 @@ _generate_msg_cpp(iiwa_msgs
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
@@ -513,31 +513,31 @@ _generate_msg_cpp(iiwa_msgs
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_cpp(iiwa_msgs
@@ -557,7 +557,7 @@ _generate_msg_cpp(iiwa_msgs
 _generate_srv_cpp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/srv/ConfigureControlMode.srv"
   "${MSG_I_FLAGS}"
-  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianControlModeLimits.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/DesiredForceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointImpedanceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SinePatternControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianImpedanceControlMode.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointImpedanceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/DesiredForceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianControlModeLimits.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianImpedanceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SinePatternControlMode.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_srv_cpp(iiwa_msgs
@@ -746,7 +746,7 @@ _generate_msg_eus(iiwa_msgs
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianEulerPose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
@@ -764,7 +764,7 @@ _generate_msg_eus(iiwa_msgs
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
@@ -776,13 +776,13 @@ _generate_msg_eus(iiwa_msgs
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianVelocity.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianWrench.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Wrench.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Wrench.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
@@ -806,7 +806,7 @@ _generate_msg_eus(iiwa_msgs
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointDamping.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
@@ -818,13 +818,13 @@ _generate_msg_eus(iiwa_msgs
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPositionVelocity.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
@@ -836,19 +836,19 @@ _generate_msg_eus(iiwa_msgs
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointStiffness.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointTorque.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointVelocity.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
@@ -866,43 +866,43 @@ _generate_msg_eus(iiwa_msgs
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
@@ -920,31 +920,31 @@ _generate_msg_eus(iiwa_msgs
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
@@ -962,31 +962,31 @@ _generate_msg_eus(iiwa_msgs
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_eus(iiwa_msgs
@@ -1006,7 +1006,7 @@ _generate_msg_eus(iiwa_msgs
 _generate_srv_eus(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/srv/ConfigureControlMode.srv"
   "${MSG_I_FLAGS}"
-  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianControlModeLimits.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/DesiredForceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointImpedanceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SinePatternControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianImpedanceControlMode.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointImpedanceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/DesiredForceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianControlModeLimits.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianImpedanceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SinePatternControlMode.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/iiwa_msgs
 )
 _generate_srv_eus(iiwa_msgs
@@ -1195,7 +1195,7 @@ _generate_msg_lisp(iiwa_msgs
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianEulerPose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
@@ -1213,7 +1213,7 @@ _generate_msg_lisp(iiwa_msgs
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
@@ -1225,13 +1225,13 @@ _generate_msg_lisp(iiwa_msgs
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianVelocity.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianWrench.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Wrench.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Wrench.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
@@ -1255,7 +1255,7 @@ _generate_msg_lisp(iiwa_msgs
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointDamping.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
@@ -1267,13 +1267,13 @@ _generate_msg_lisp(iiwa_msgs
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPositionVelocity.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
@@ -1285,19 +1285,19 @@ _generate_msg_lisp(iiwa_msgs
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointStiffness.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointTorque.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointVelocity.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
@@ -1315,43 +1315,43 @@ _generate_msg_lisp(iiwa_msgs
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
@@ -1369,31 +1369,31 @@ _generate_msg_lisp(iiwa_msgs
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
@@ -1411,31 +1411,31 @@ _generate_msg_lisp(iiwa_msgs
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_lisp(iiwa_msgs
@@ -1455,7 +1455,7 @@ _generate_msg_lisp(iiwa_msgs
 _generate_srv_lisp(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/srv/ConfigureControlMode.srv"
   "${MSG_I_FLAGS}"
-  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianControlModeLimits.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/DesiredForceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointImpedanceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SinePatternControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianImpedanceControlMode.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointImpedanceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/DesiredForceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianControlModeLimits.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianImpedanceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SinePatternControlMode.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/iiwa_msgs
 )
 _generate_srv_lisp(iiwa_msgs
@@ -1644,7 +1644,7 @@ _generate_msg_nodejs(iiwa_msgs
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianEulerPose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
@@ -1662,7 +1662,7 @@ _generate_msg_nodejs(iiwa_msgs
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
@@ -1674,13 +1674,13 @@ _generate_msg_nodejs(iiwa_msgs
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianVelocity.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianWrench.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Wrench.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Wrench.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
@@ -1704,7 +1704,7 @@ _generate_msg_nodejs(iiwa_msgs
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointDamping.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
@@ -1716,13 +1716,13 @@ _generate_msg_nodejs(iiwa_msgs
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPositionVelocity.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
@@ -1734,19 +1734,19 @@ _generate_msg_nodejs(iiwa_msgs
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointStiffness.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointTorque.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointVelocity.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
@@ -1764,43 +1764,43 @@ _generate_msg_nodejs(iiwa_msgs
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
@@ -1818,31 +1818,31 @@ _generate_msg_nodejs(iiwa_msgs
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
@@ -1860,31 +1860,31 @@ _generate_msg_nodejs(iiwa_msgs
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_nodejs(iiwa_msgs
@@ -1904,7 +1904,7 @@ _generate_msg_nodejs(iiwa_msgs
 _generate_srv_nodejs(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/srv/ConfigureControlMode.srv"
   "${MSG_I_FLAGS}"
-  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianControlModeLimits.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/DesiredForceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointImpedanceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SinePatternControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianImpedanceControlMode.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointImpedanceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/DesiredForceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianControlModeLimits.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianImpedanceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SinePatternControlMode.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/iiwa_msgs
 )
 _generate_srv_nodejs(iiwa_msgs
@@ -2093,7 +2093,7 @@ _generate_msg_py(iiwa_msgs
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianEulerPose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
@@ -2111,7 +2111,7 @@ _generate_msg_py(iiwa_msgs
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
@@ -2123,13 +2123,13 @@ _generate_msg_py(iiwa_msgs
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianVelocity.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianWrench.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Wrench.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
+  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Wrench.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
@@ -2153,7 +2153,7 @@ _generate_msg_py(iiwa_msgs
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointDamping.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
@@ -2165,13 +2165,13 @@ _generate_msg_py(iiwa_msgs
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPositionVelocity.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
@@ -2183,19 +2183,19 @@ _generate_msg_py(iiwa_msgs
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointStiffness.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointTorque.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointVelocity.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
@@ -2213,43 +2213,43 @@ _generate_msg_py(iiwa_msgs
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
@@ -2267,31 +2267,31 @@ _generate_msg_py(iiwa_msgs
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
@@ -2309,31 +2309,31 @@ _generate_msg_py(iiwa_msgs
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionAction.msg"
   "${MSG_I_FLAGS}"
-  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg"
+  "/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/noetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
   "/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_msg_py(iiwa_msgs
@@ -2353,7 +2353,7 @@ _generate_msg_py(iiwa_msgs
 _generate_srv_py(iiwa_msgs
   "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/srv/ConfigureControlMode.srv"
   "${MSG_I_FLAGS}"
-  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianControlModeLimits.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/DesiredForceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointImpedanceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SinePatternControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianImpedanceControlMode.msg"
+  "/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointImpedanceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/DesiredForceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianControlModeLimits.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianImpedanceControlMode.msg;/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SinePatternControlMode.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/iiwa_msgs
 )
 _generate_srv_py(iiwa_msgs

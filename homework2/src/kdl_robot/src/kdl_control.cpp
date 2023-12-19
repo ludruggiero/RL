@@ -5,6 +5,8 @@ KDLController::KDLController(KDLRobot &_robot)
     robot_ = &_robot;
 }
 
+/// Joint space inverse dynamics
+/// @return control torques
 Eigen::VectorXd KDLController::idCntr(KDL::JntArray &_qd,
                                       KDL::JntArray &_dqd,
                                       KDL::JntArray &_ddqd,
@@ -21,11 +23,12 @@ Eigen::VectorXd KDLController::idCntr(KDL::JntArray &_qd,
     Eigen::VectorXd de = _dqd.data - dq;
 
     Eigen::VectorXd ddqd = _ddqd.data;
-    // getJsim returns the Joint Space Inertia Matrix
     return robot_->getJsim() * (ddqd + _Kd*de + _Kp*e)
             + robot_->getCoriolis() + robot_->getGravity() /*+ robot_->getFriction() /*friction compensation?*/;
 }
 
+/// Cartesian space inverse dynamics
+/// @return control torques
 Eigen::VectorXd KDLController::idCntr(KDL::Frame &_desPos,
                                       KDL::Twist &_desVel,
                                       KDL::Twist &_desAcc,
@@ -94,33 +97,33 @@ Eigen::VectorXd KDLController::idCntr(KDL::Frame &_desPos,
     double cost;
     Eigen::VectorXd grad = gradientJointLimits(robot_->getJntValues(),robot_->getJntLimits(),cost);
 
-////    std::cout << "---------------------" << std::endl;
-////    std::cout << "p_d: " << std::endl << p_d << std::endl;
-////    std::cout << "p_e: " << std::endl << p_e << std::endl;
-////    std::cout << "dot_p_d: " << std::endl << dot_p_d << std::endl;
-////    std::cout << "dot_p_e: " << std::endl << dot_p_e << std::endl;
-////    std::cout << "R_sh*R_d: " << std::endl << R_d << std::endl;
-////    std::cout << "R_e: " << std::endl << R_e << std::endl;
-////    std::cout << "omega_d: " << std::endl << omega_d << std::endl;
-////    std::cout << "omega_e: " << std::endl << omega_e << std::endl;
-////    std::cout << "x_tilde: " << std::endl << x_tilde << std::endl;
-////    std::cout << "dot_x_tilde: " << std::endl << dot_x_tilde << std::endl;
-////    std::cout << "jacobian: " << std::endl << robot_->getJacobian() << std::endl;
-////    std::cout << "jpinv: " << std::endl << Jpinv << std::endl;
-////    std::cout << "jsim: " << std::endl << robot_->getJsim() << std::endl;
-////    std::cout << "c: " << std::endl << robot_->getCoriolis().transpose() << std::endl;
-////    std::cout << "g: " << std::endl << robot_->getGravity().transpose() << std::endl;
-////    std::cout << "q: " << std::endl << robot_->getJntValues().transpose() << std::endl;
-////    std::cout << "Jac Dot qDot: " << std::endl << robot_->getJacDotqDot().transpose() << std::endl;
-////    std::cout << "Jnt lmt cost: " << std::endl << cost << std::endl;
-////    std::cout << "Jnt lmt gradient: " << std::endl << grad.transpose() << std::endl;
-////    std::cout << "---------------------" << std::endl;
+//    std::cout << "---------------------" << std::endl;
+//    std::cout << "p_d: " << std::endl << p_d << std::endl;
+//    std::cout << "p_e: " << std::endl << p_e << std::endl;
+//    std::cout << "dot_p_d: " << std::endl << dot_p_d << std::endl;
+//    std::cout << "dot_p_e: " << std::endl << dot_p_e << std::endl;
+//    std::cout << "R_sh*R_d: " << std::endl << R_d << std::endl;
+//    std::cout << "R_e: " << std::endl << R_e << std::endl;
+//    std::cout << "omega_d: " << std::endl << omega_d << std::endl;
+//    std::cout << "omega_e: " << std::endl << omega_e << std::endl;
+//    std::cout << "x_tilde: " << std::endl << x_tilde << std::endl;
+//    std::cout << "dot_x_tilde: " << std::endl << dot_x_tilde << std::endl;
+//    std::cout << "jacobian: " << std::endl << robot_->getJacobian() << std::endl;
+//    std::cout << "jpinv: " << std::endl << Jpinv << std::endl;
+//    std::cout << "jsim: " << std::endl << robot_->getJsim() << std::endl;
+//    std::cout << "c: " << std::endl << robot_->getCoriolis().transpose() << std::endl;
+//    std::cout << "g: " << std::endl << robot_->getGravity().transpose() << std::endl;
+//    std::cout << "q: " << std::endl << robot_->getJntValues().transpose() << std::endl;
+//    std::cout << "Jac Dot qDot: " << std::endl << robot_->getJacDotqDot().transpose() << std::endl;
+//    std::cout << "Jnt lmt cost: " << std::endl << cost << std::endl;
+//    std::cout << "Jnt lmt gradient: " << std::endl << grad.transpose() << std::endl;
+//    std::cout << "---------------------" << std::endl;
 
     // inverse dynamics
     Eigen::Matrix<double,6,1> y;
     y << dot_dot_x_d - robot_->getEEJacDotqDot() + Kd*dot_x_tilde + Kp*x_tilde;
 
-    return M * (Jpinv*y + (I-Jpinv*J)*(/*- 10*grad */- 1*robot_->getJntVelocities()))
+    return M * (Jpinv*y + (I-Jpinv*J)*(- 1*robot_->getJntVelocities()))
             + robot_->getGravity() + robot_->getCoriolis();
 }
 

@@ -116,8 +116,8 @@ CMakeFiles/iiwa_msgs_generate_messages_nodejs: /home/ludovica/RL/homework2/devel
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianEulerPose.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianEulerPose.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianEulerPose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianEulerPose.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianEulerPose.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianEulerPose.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from iiwa_msgs/CartesianEulerPose.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianEulerPose.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
@@ -134,12 +134,12 @@ CMakeFiles/iiwa_msgs_generate_messages_nodejs: /home/ludovica/RL/homework2/devel
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianPose.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianPose.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianPose.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianPose.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianPose.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianPose.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianPose.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianPose.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianPose.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianPose.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianPose.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Javascript code from iiwa_msgs/CartesianPose.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
@@ -150,16 +150,16 @@ CMakeFiles/iiwa_msgs_generate_messages_nodejs: /home/ludovica/RL/homework2/devel
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianVelocity.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianVelocity.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianVelocity.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianVelocity.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianVelocity.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianVelocity.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Javascript code from iiwa_msgs/CartesianVelocity.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianVelocity.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianWrench.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianWrench.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianWrench.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianWrench.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianWrench.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianWrench.js: /opt/ros/noetic/share/geometry_msgs/msg/Wrench.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/CartesianWrench.js: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Javascript code from iiwa_msgs/CartesianWrench.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianWrench.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
@@ -180,8 +180,8 @@ CMakeFiles/iiwa_msgs_generate_messages_nodejs: /home/ludovica/RL/homework2/devel
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointDamping.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointDamping.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointDamping.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointDamping.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointDamping.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointDamping.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Javascript code from iiwa_msgs/JointDamping.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointDamping.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
@@ -193,15 +193,15 @@ CMakeFiles/iiwa_msgs_generate_messages_nodejs: /home/ludovica/RL/homework2/devel
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointPosition.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointPosition.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointPosition.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointPosition.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointPosition.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Javascript code from iiwa_msgs/JointPosition.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointPositionVelocity.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointPositionVelocity.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPositionVelocity.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointPositionVelocity.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointPositionVelocity.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointPositionVelocity.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Javascript code from iiwa_msgs/JointPositionVelocity.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPositionVelocity.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
@@ -212,22 +212,22 @@ CMakeFiles/iiwa_msgs_generate_messages_nodejs: /home/ludovica/RL/homework2/devel
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointStiffness.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointStiffness.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointStiffness.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointStiffness.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointStiffness.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointStiffness.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Javascript code from iiwa_msgs/JointStiffness.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointStiffness.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointTorque.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointTorque.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointTorque.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointTorque.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointTorque.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointTorque.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating Javascript code from iiwa_msgs/JointTorque.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointTorque.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointVelocity.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointVelocity.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointVelocity.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointVelocity.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointVelocity.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/JointVelocity.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating Javascript code from iiwa_msgs/JointVelocity.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointVelocity.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
@@ -243,96 +243,96 @@ CMakeFiles/iiwa_msgs_generate_messages_nodejs: /home/ludovica/RL/homework2/devel
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/Spline.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/Spline.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/Spline.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/Spline.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/Spline.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/Spline.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/Spline.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/Spline.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/Spline.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/Spline.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/Spline.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/Spline.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/Spline.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/Spline.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/Spline.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating Javascript code from iiwa_msgs/Spline.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/SplineSegment.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/SplineSegment.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/SplineSegment.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/SplineSegment.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/SplineSegment.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/SplineSegment.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/SplineSegment.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/SplineSegment.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/SplineSegment.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/SplineSegment.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/SplineSegment.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/SplineSegment.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/SplineSegment.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/SplineSegment.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/SplineSegment.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Javascript code from iiwa_msgs/SplineSegment.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineAction.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineAction.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating Javascript code from iiwa_msgs/MoveAlongSplineAction.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineAction.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Javascript code from iiwa_msgs/MoveAlongSplineActionGoal.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionResult.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionResult.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating Javascript code from iiwa_msgs/MoveAlongSplineActionResult.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionFeedback.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionFeedback.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating Javascript code from iiwa_msgs/MoveAlongSplineActionFeedback.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineGoal.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveAlongSplineGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating Javascript code from iiwa_msgs/MoveAlongSplineGoal.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
@@ -348,65 +348,65 @@ CMakeFiles/iiwa_msgs_generate_messages_nodejs: /home/ludovica/RL/homework2/devel
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseAction.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating Javascript code from iiwa_msgs/MoveToCartesianPoseAction.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseAction.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating Javascript code from iiwa_msgs/MoveToCartesianPoseActionGoal.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionResult.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionResult.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating Javascript code from iiwa_msgs/MoveToCartesianPoseActionResult.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating Javascript code from iiwa_msgs/MoveToCartesianPoseActionFeedback.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.js: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating Javascript code from iiwa_msgs/MoveToCartesianPoseGoal.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
@@ -422,53 +422,53 @@ CMakeFiles/iiwa_msgs_generate_messages_nodejs: /home/ludovica/RL/homework2/devel
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionAction.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionAction.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating Javascript code from iiwa_msgs/MoveToJointPositionAction.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionAction.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionGoal.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionGoal.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionGoal.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating Javascript code from iiwa_msgs/MoveToJointPositionActionGoal.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionResult.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionResult.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionResult.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionResult.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionResult.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionResult.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating Javascript code from iiwa_msgs/MoveToJointPositionActionResult.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionFeedback.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionFeedback.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionFeedback.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionFeedback.js: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionActionFeedback.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating Javascript code from iiwa_msgs/MoveToJointPositionActionFeedback.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionGoal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionGoal.js: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionGoal.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg/MoveToJointPositionGoal.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating Javascript code from iiwa_msgs/MoveToJointPositionGoal.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/msg
 
@@ -484,13 +484,13 @@ CMakeFiles/iiwa_msgs_generate_messages_nodejs: /home/ludovica/RL/homework2/devel
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/srv/ConfigureControlMode.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/srv/ConfigureControlMode.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/srv/ConfigureControlMode.srv
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/srv/ConfigureControlMode.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianControlModeLimits.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/srv/ConfigureControlMode.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/srv/ConfigureControlMode.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointImpedanceControlMode.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/srv/ConfigureControlMode.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/DesiredForceControlMode.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/srv/ConfigureControlMode.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/srv/ConfigureControlMode.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointImpedanceControlMode.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/srv/ConfigureControlMode.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SinePatternControlMode.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/srv/ConfigureControlMode.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianControlModeLimits.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/srv/ConfigureControlMode.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianImpedanceControlMode.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/srv/ConfigureControlMode.js: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SinePatternControlMode.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating Javascript code from iiwa_msgs/ConfigureControlMode.srv"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/srv/ConfigureControlMode.srv -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/gennodejs/ros/iiwa_msgs/srv
 

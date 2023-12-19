@@ -117,8 +117,8 @@ CMakeFiles/iiwa_msgs_generate_messages_eus: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianEulerPose.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianEulerPose.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianEulerPose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianEulerPose.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianEulerPose.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianEulerPose.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from iiwa_msgs/CartesianEulerPose.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianEulerPose.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
@@ -135,12 +135,12 @@ CMakeFiles/iiwa_msgs_generate_messages_eus: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianPose.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianPose.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianPose.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianPose.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianPose.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianPose.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianPose.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianPose.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianPose.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianPose.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianPose.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from iiwa_msgs/CartesianPose.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
@@ -151,16 +151,16 @@ CMakeFiles/iiwa_msgs_generate_messages_eus: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianVelocity.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianVelocity.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianVelocity.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianVelocity.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianVelocity.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianVelocity.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating EusLisp code from iiwa_msgs/CartesianVelocity.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianVelocity.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianWrench.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianWrench.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianWrench.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianWrench.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianWrench.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianWrench.l: /opt/ros/noetic/share/geometry_msgs/msg/Wrench.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/CartesianWrench.l: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating EusLisp code from iiwa_msgs/CartesianWrench.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianWrench.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
@@ -181,8 +181,8 @@ CMakeFiles/iiwa_msgs_generate_messages_eus: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointDamping.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointDamping.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointDamping.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointDamping.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointDamping.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointDamping.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating EusLisp code from iiwa_msgs/JointDamping.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointDamping.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
@@ -194,15 +194,15 @@ CMakeFiles/iiwa_msgs_generate_messages_eus: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointPosition.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointPosition.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointPosition.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointPosition.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointPosition.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating EusLisp code from iiwa_msgs/JointPosition.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointPositionVelocity.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointPositionVelocity.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPositionVelocity.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointPositionVelocity.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointPositionVelocity.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointPositionVelocity.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating EusLisp code from iiwa_msgs/JointPositionVelocity.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPositionVelocity.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
@@ -213,22 +213,22 @@ CMakeFiles/iiwa_msgs_generate_messages_eus: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointStiffness.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointStiffness.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointStiffness.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointStiffness.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointStiffness.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointStiffness.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating EusLisp code from iiwa_msgs/JointStiffness.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointStiffness.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointTorque.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointTorque.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointTorque.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointTorque.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointTorque.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointTorque.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating EusLisp code from iiwa_msgs/JointTorque.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointTorque.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointVelocity.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointVelocity.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointVelocity.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointVelocity.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointVelocity.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/JointVelocity.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating EusLisp code from iiwa_msgs/JointVelocity.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointVelocity.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
@@ -244,96 +244,96 @@ CMakeFiles/iiwa_msgs_generate_messages_eus: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/Spline.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/Spline.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/Spline.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/Spline.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/Spline.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/Spline.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/Spline.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/Spline.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/Spline.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/Spline.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/Spline.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/Spline.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/Spline.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/Spline.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/Spline.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating EusLisp code from iiwa_msgs/Spline.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/SplineSegment.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/SplineSegment.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/SplineSegment.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/SplineSegment.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/SplineSegment.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/SplineSegment.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/SplineSegment.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/SplineSegment.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/SplineSegment.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/SplineSegment.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/SplineSegment.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/SplineSegment.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/SplineSegment.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/SplineSegment.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/SplineSegment.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating EusLisp code from iiwa_msgs/SplineSegment.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineAction.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineAction.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating EusLisp code from iiwa_msgs/MoveAlongSplineAction.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineAction.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating EusLisp code from iiwa_msgs/MoveAlongSplineActionGoal.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionGoal.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionResult.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionResult.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating EusLisp code from iiwa_msgs/MoveAlongSplineActionResult.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionResult.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionFeedback.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionFeedback.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating EusLisp code from iiwa_msgs/MoveAlongSplineActionFeedback.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineActionFeedback.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineGoal.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SplineSegment.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveAlongSplineGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/Spline.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating EusLisp code from iiwa_msgs/MoveAlongSplineGoal.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveAlongSplineGoal.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
@@ -349,65 +349,65 @@ CMakeFiles/iiwa_msgs_generate_messages_eus: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseAction.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseAction.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating EusLisp code from iiwa_msgs/MoveToCartesianPoseAction.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseAction.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating EusLisp code from iiwa_msgs/MoveToCartesianPoseActionGoal.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionGoal.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionResult.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionResult.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating EusLisp code from iiwa_msgs/MoveToCartesianPoseActionResult.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionResult.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating EusLisp code from iiwa_msgs/MoveToCartesianPoseActionFeedback.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseActionFeedback.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/RedundancyInformation.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianPose.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToCartesianPoseGoal.l: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating EusLisp code from iiwa_msgs/MoveToCartesianPoseGoal.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToCartesianPoseGoal.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
@@ -423,53 +423,53 @@ CMakeFiles/iiwa_msgs_generate_messages_eus: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionAction.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionAction.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating EusLisp code from iiwa_msgs/MoveToJointPositionAction.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionAction.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionGoal.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionGoal.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionGoal.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating EusLisp code from iiwa_msgs/MoveToJointPositionActionGoal.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionGoal.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionResult.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionResult.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionResult.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionResult.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionResult.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionResult.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionResult.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating EusLisp code from iiwa_msgs/MoveToJointPositionActionResult.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionResult.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionFeedback.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionFeedback.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionFeedback.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionFeedback.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionFeedback.l: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionActionFeedback.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating EusLisp code from iiwa_msgs/MoveToJointPositionActionFeedback.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionActionFeedback.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionGoal.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionGoal.l: /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointPosition.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionGoal.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg/MoveToJointPositionGoal.l: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating EusLisp code from iiwa_msgs/MoveToJointPositionGoal.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg/MoveToJointPositionGoal.msg -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/msg
 
@@ -485,13 +485,13 @@ CMakeFiles/iiwa_msgs_generate_messages_eus: /home/ludovica/RL/homework2/devel/.p
 
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/srv/ConfigureControlMode.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/srv/ConfigureControlMode.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/srv/ConfigureControlMode.srv
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/srv/ConfigureControlMode.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianControlModeLimits.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/srv/ConfigureControlMode.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianQuantity.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/srv/ConfigureControlMode.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointImpedanceControlMode.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/srv/ConfigureControlMode.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/DesiredForceControlMode.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/srv/ConfigureControlMode.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointQuantity.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/srv/ConfigureControlMode.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/JointImpedanceControlMode.msg
-/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/srv/ConfigureControlMode.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SinePatternControlMode.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/srv/ConfigureControlMode.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianControlModeLimits.msg
 /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/srv/ConfigureControlMode.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/CartesianImpedanceControlMode.msg
+/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/srv/ConfigureControlMode.l: /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg/SinePatternControlMode.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ludovica/RL/homework2/build/iiwa_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating EusLisp code from iiwa_msgs/ConfigureControlMode.srv"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/srv/ConfigureControlMode.srv -Iiiwa_msgs:/home/ludovica/RL/homework2/src/iiwa_stack/iiwa_msgs/msg -Iiiwa_msgs:/home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/iiwa_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p iiwa_msgs -o /home/ludovica/RL/homework2/devel/.private/iiwa_msgs/share/roseus/ros/iiwa_msgs/srv
 
