@@ -15,6 +15,8 @@ sensor_msgs/JointState.h
 /home/ludovica/RL/homework1/src/arm_controller/include/Arm_Controller/sensor_msgs/JointState.h
 string
 -
+cmath
+-
 
 /home/ludovica/RL/homework1/src/arm_controller/src/Arm_Controller.cpp
 Arm_Controller/Arm_Controller.h
@@ -26,8 +28,6 @@ ros/ros.h
 Arm_Controller/Arm_Controller.h
 /home/ludovica/RL/homework1/src/arm_controller/src/Arm_Controller/Arm_Controller.h
 sstream
--
-cmath
 -
 
 /opt/ros/noetic/include/ros/advertise_options.h
