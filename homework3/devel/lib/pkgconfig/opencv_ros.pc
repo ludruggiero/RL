@@ -1,1 +1,0 @@
-/home/ludovica/RL/homework3/devel/.private/opencv_ros/lib/pkgconfig/opencv_ros.pc

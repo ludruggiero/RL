@@ -1,1 +1,0 @@
-/home/ludovica/RL/homework1/devel/.private/my_pkg/share/gennodejs/ros/my_pkg/msg/_index.js

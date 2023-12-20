@@ -1,1 +1,0 @@
-/home/ludovica/RL/homework3/devel/.private/kdl_ros_control/share/kdl_ros_control/cmake/kdl_ros_controlConfig-version.cmake

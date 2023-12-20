@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target opencv_ros_node[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/opencv_ros_node.dir/src/opencv_ros_node.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/ludovica/RL/homework3/devel/.private/opencv_ros/lib/opencv_ros/opencv_ros_node[0m
-[100%] Built target opencv_ros_node

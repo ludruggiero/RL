@@ -1,1 +1,0 @@
-/home/ludovica/RL/homework3/devel/.private/aruco_msgs/include/aruco_msgs/Marker.h

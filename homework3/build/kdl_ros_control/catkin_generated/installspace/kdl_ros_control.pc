@@ -1,8 +1,0 @@
-prefix=/home/ludovica/RL/homework3/install
-
-Name: kdl_ros_control
-Description: Description of kdl_ros_control
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lkdl_ros_control
-Requires: 

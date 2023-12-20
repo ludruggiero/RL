@@ -1,1 +1,0 @@
-/home/ludovica/RL/homework1/devel/.private/arm_gazebo/lib/pkgconfig/arm_gazebo.pc

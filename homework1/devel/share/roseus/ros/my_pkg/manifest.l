@@ -1,1 +1,0 @@
-/home/ludovica/RL/homework1/devel/.private/my_pkg/share/roseus/ros/my_pkg/manifest.l

@@ -1,1 +1,0 @@
-/home/ludovica/RL/homework4/devel/.private/aruco/share/aruco/cmake/arucoConfig.cmake

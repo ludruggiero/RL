@@ -1,1 +1,0 @@
-/home/ludovica/RL/homework1/devel/.private/my_pkg/lib/pkgconfig/my_pkg.pc

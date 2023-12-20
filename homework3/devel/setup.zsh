@@ -1,1 +1,0 @@
-/home/ludovica/RL/homework3/devel/.private/catkin_tools_prebuild/setup.zsh

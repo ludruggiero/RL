@@ -1,1 +1,0 @@
-/home/ludovica/RL/homework4/devel/.private/rl_fra2mo_description/lib/pkgconfig/rl_fra2mo_description.pc

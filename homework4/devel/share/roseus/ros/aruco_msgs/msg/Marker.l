@@ -1,1 +1,0 @@
-/home/ludovica/RL/homework4/devel/.private/aruco_msgs/share/roseus/ros/aruco_msgs/msg/Marker.l

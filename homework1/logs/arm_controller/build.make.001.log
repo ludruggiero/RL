@@ -1,5 +1,0 @@
-[35m[1mScanning dependencies of target arm_controller_node[0m
-[ 33%] [32mBuilding CXX object CMakeFiles/arm_controller_node.dir/src/arm_controller_node.cpp.o[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/arm_controller_node.dir/src/Arm_Controller.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/ludovica/RL/homework1/devel/.private/arm_controller/lib/arm_controller/arm_controller_node[0m
-[100%] Built target arm_controller_node

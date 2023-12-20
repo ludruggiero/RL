@@ -1,8 +1,0 @@
-[35m[1mScanning dependencies of target single_goal[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/single_goal.dir/src/single_goal.cpp.o[0m
-[35m[1mScanning dependencies of target tf_nav[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/tf_nav.dir/src/tf_nav.cpp.o[0m
-[ 75%] [32m[1mLinking CXX executable /home/ludovica/RL/homework4/devel/.private/fra2mo_2dnav/lib/fra2mo_2dnav/single_goal[0m
-[ 75%] Built target single_goal
-[100%] [32m[1mLinking CXX executable /home/ludovica/RL/homework4/devel/.private/fra2mo_2dnav/lib/fra2mo_2dnav/tf_nav[0m
-[100%] Built target tf_nav
